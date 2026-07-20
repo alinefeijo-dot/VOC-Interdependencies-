@@ -7,7 +7,7 @@ export const STAGES = [
 
 export const TIMELINE_BUCKETS = [
   { key: "unscheduled", label: "Unscheduled" },
-  { key: "later", label: "Later" },
+  { key: "beyond", label: "Beyond" },
   { key: "next", label: "Next" },
   { key: "now", label: "Now" },
 ];

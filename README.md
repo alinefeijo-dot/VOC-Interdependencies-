@@ -8,7 +8,7 @@ A live, multi-user kanban board for triaging Anchorage's Voice of the Client
 - **Two toggleable axes** for the columns:
   - **By Review Stage** — Not Reviewed by PDE Team → Reviewed by VOC →
     Reviewed by PDE Team → On Roadmap
-  - **By Timeline** — Unscheduled → Later → Next → Now, seeded from each
+  - **By Timeline** — Unscheduled → Beyond → Next → Now, seeded from each
     issue's current review stage as a starting guess, then corrected by
     dragging live during the workshop
   - both views share a read-only "Closed / Other" tray for

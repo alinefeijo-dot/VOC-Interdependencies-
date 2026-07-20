@@ -15,10 +15,10 @@ const issues = JSON.parse(
 let state = loadState();
 
 const STAGE_KEYS = ["not_reviewed", "reviewed_voc", "reviewed_pde", "on_roadmap"];
-const TIMELINE_KEYS = ["now", "next", "later", "unscheduled"];
+const TIMELINE_KEYS = ["now", "next", "beyond", "unscheduled"];
 const STAGE_TIMELINE_DEFAULT = {
   not_reviewed: "unscheduled",
-  reviewed_voc: "later",
+  reviewed_voc: "beyond",
   reviewed_pde: "next",
   on_roadmap: "now",
   closed: "unscheduled",
