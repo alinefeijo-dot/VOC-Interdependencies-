@@ -1,0 +1,15 @@
+{
+  "name": "voc-interdependencies-board",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run build && npm run start -w server",
+    "sync:linear": "node scripts/sync-to-linear.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

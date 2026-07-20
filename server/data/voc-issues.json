@@ -1,0 +1,4552 @@
+[
+  {
+    "id": "VOC-17",
+    "title": "Brokerage as a Transfer Agent (Result of Notion import) (converted to project)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-17/brokerage-as-a-transfer-agent-result-of-notion-import-converted-to",
+    "status": "Canceled",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T12:58:20.626Z"
+  },
+  {
+    "id": "VOC-21",
+    "title": "Pending deposit attribution and activity views do not show USD value",
+    "url": "https://linear.app/anchorlabs/issue/VOC-21/pending-deposit-attribution-and-activity-views-do-not-show-usd-value",
+    "status": "Reviewed by PDE Team",
+    "stage": "reviewed_pde",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-26T13:48:59.066Z"
+  },
+  {
+    "id": "VOC-22",
+    "title": "Critical network alerts are not shown consistently across mobile and web",
+    "url": "https://linear.app/anchorlabs/issue/VOC-22/critical-network-alerts-are-not-shown-consistently-across-mobile-and",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:32:20.075Z"
+  },
+  {
+    "id": "VOC-23",
+    "title": "Clients cannot filter past transactions by wallet address",
+    "url": "https://linear.app/anchorlabs/issue/VOC-23/clients-cannot-filter-past-transactions-by-wallet-address",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:48:51.310Z"
+  },
+  {
+    "id": "VOC-30",
+    "title": "Trusted destinations cannot be deleted in bulk",
+    "url": "https://linear.app/anchorlabs/issue/VOC-30/trusted-destinations-cannot-be-deleted-in-bulk",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:48:51.407Z"
+  },
+  {
+    "id": "VOC-35",
+    "title": "Clients aren't notified about non-breaking API schema changes",
+    "url": "https://linear.app/anchorlabs/issue/VOC-35/clients-arent-notified-about-non-breaking-api-schema-changes",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:48:51.495Z"
+  },
+  {
+    "id": "VOC-37",
+    "title": "Clients cannot initiate batch withdrawals in the UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-37/clients-cannot-initiate-batch-withdrawals-in-the-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-07-02T15:48:51.619Z"
+  },
+  {
+    "id": "VOC-38",
+    "title": "Risk reviewers cannot disposition same-destination withdrawals in batch",
+    "url": "https://linear.app/anchorlabs/issue/VOC-38/risk-reviewers-cannot-disposition-same-destination-withdrawals-in",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:48:51.770Z"
+  },
+  {
+    "id": "VOC-39",
+    "title": "Batch Transaction Initiation (Internal + External Transfers)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-39/batch-transaction-initiation-internal-external-transfers",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-05-07T21:48:19.773Z"
+  },
+  {
+    "id": "VOC-40",
+    "title": "Bulk Transaction Initiation",
+    "url": "https://linear.app/anchorlabs/issue/VOC-40/bulk-transaction-initiation",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-05-07T21:48:19.824Z"
+  },
+  {
+    "id": "VOC-43",
+    "title": "Bulk Transfers in Web UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-43/bulk-transfers-in-web-ui",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-05-07T21:48:19.876Z"
+  },
+  {
+    "id": "VOC-45",
+    "title": "Fiat deposit wire instructions show a control person's personal address",
+    "url": "https://linear.app/anchorlabs/issue/VOC-45/fiat-deposit-wire-instructions-show-a-control-persons-personal-address",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:03.622Z"
+  },
+  {
+    "id": "VOC-46",
+    "title": "Trade Report Custom Date Range Excludes End Date Transactions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-46/trade-report-custom-date-range-excludes-end-date-transactions",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "Trading Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-05-07T21:45:44.033Z"
+  },
+  {
+    "id": "VOC-47",
+    "title": "Clients cannot download payment receipts for USD wire withdrawals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-47/clients-cannot-download-payment-receipts-for-usd-wire-withdrawals",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:03.711Z"
+  },
+  {
+    "id": "VOC-48",
+    "title": "Stablecoin Rewards Dashboard Shows \"Pending Configuration\" Even When Setup is Complete",
+    "url": "https://linear.app/anchorlabs/issue/VOC-48/stablecoin-rewards-dashboard-shows-pending-configuration-even-when",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Asset Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:03.816Z"
+  },
+  {
+    "id": "VOC-50",
+    "title": "Web login approval location pins do not reflect the user's actual location",
+    "url": "https://linear.app/anchorlabs/issue/VOC-50/web-login-approval-location-pins-do-not-reflect-the-users-actual",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-07-08T14:26:55.513Z"
+  },
+  {
+    "id": "VOC-51",
+    "title": "Active WalletConnect sessions can lock users out of the mobile app",
+    "url": "https://linear.app/anchorlabs/issue/VOC-51/active-walletconnect-sessions-can-lock-users-out-of-the-mobile-app",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T18:50:38.876Z"
+  },
+  {
+    "id": "VOC-53",
+    "title": "Clients cannot set different policies for internal and external withdrawals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-53/clients-cannot-set-different-policies-for-internal-and-external",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:04.047Z"
+  },
+  {
+    "id": "VOC-54",
+    "title": "Set different policies for internal and external withdrawals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-54/set-different-policies-for-internal-and-external-withdrawals",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-07-01T19:44:27.921Z"
+  },
+  {
+    "id": "VOC-55",
+    "title": "Live quote and trade workflows rely on communication channels clients may refuse to use",
+    "url": "https://linear.app/anchorlabs/issue/VOC-55/live-quote-and-trade-workflows-rely-on-communication-channels-clients",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Trading Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:54:11.023Z"
+  },
+  {
+    "id": "VOC-137",
+    "title": "Ability to auto-pay monthly invoices directly out of wallet",
+    "url": "https://linear.app/anchorlabs/issue/VOC-137/ability-to-auto-pay-monthly-invoices-directly-out-of-wallet",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-16T12:58:21.318Z"
+  },
+  {
+    "id": "VOC-139",
+    "title": "Trusted destinations cannot be time-locked before use",
+    "url": "https://linear.app/anchorlabs/issue/VOC-139/trusted-destinations-cannot-be-time-locked-before-use",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:53:56.470Z"
+  },
+  {
+    "id": "VOC-140",
+    "title": "Invoices cannot be auto-paid from a vault balance",
+    "url": "https://linear.app/anchorlabs/issue/VOC-140/invoices-cannot-be-auto-paid-from-a-vault-balance",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:53:22.774Z"
+  },
+  {
+    "id": "VOC-141",
+    "title": "Admin policy quorum rules do not block restricted users from initiating operations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-141/admin-policy-quorum-rules-do-not-block-restricted-users-from",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-10T16:56:04.660Z"
+  },
+  {
+    "id": "VOC-142",
+    "title": "Duplicate admin operations can be initiated while approvals are still pending",
+    "url": "https://linear.app/anchorlabs/issue/VOC-142/duplicate-admin-operations-can-be-initiated-while-approvals-are-still",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:54:10.028Z"
+  },
+  {
+    "id": "VOC-143",
+    "title": "API User Guide links in the client portal return 404 pages",
+    "url": "https://linear.app/anchorlabs/issue/VOC-143/api-user-guide-links-in-the-client-portal-return-404-pages",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:53:56.754Z"
+  },
+  {
+    "id": "VOC-145",
+    "title": "Atlas settlement wallet selection does not show wallet addresses",
+    "url": "https://linear.app/anchorlabs/issue/VOC-145/atlas-settlement-wallet-selection-does-not-show-wallet-addresses",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:25.452Z"
+  },
+  {
+    "id": "VOC-146",
+    "title": "Wallet creation lacks audit log visibility in the portal",
+    "url": "https://linear.app/anchorlabs/issue/VOC-146/wallet-creation-lacks-audit-log-visibility-in-the-portal",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:25.551Z"
+  },
+  {
+    "id": "VOC-147",
+    "title": "Invoices and statements do not include generation timestamps",
+    "url": "https://linear.app/anchorlabs/issue/VOC-147/invoices-and-statements-do-not-include-generation-timestamps",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T15:49:25.699Z"
+  },
+  {
+    "id": "VOC-148",
+    "title": "Unclaimed Staking Rewards Reporting - Sequoia Capital",
+    "url": "https://linear.app/anchorlabs/issue/VOC-148/unclaimed-staking-rewards-reporting-sequoia-capital",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "High",
+    "updatedAt": "2026-06-16T15:06:49.558Z"
+  },
+  {
+    "id": "VOC-149",
+    "title": "Accounts are not preconfigured with required vaults and quorum settings before onboarding completes",
+    "url": "https://linear.app/anchorlabs/issue/VOC-149/accounts-are-not-preconfigured-with-required-vaults-and-quorum",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:54:10.824Z"
+  },
+  {
+    "id": "VOC-150",
+    "title": "Clients cannot self-serve exports of trusted sources and destinations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-150/clients-cannot-self-serve-exports-of-trusted-sources-and-destinations",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:58.954Z"
+  },
+  {
+    "id": "VOC-151",
+    "title": "Wallet-Level Historical Staking Reporting",
+    "url": "https://linear.app/anchorlabs/issue/VOC-151/wallet-level-historical-staking-reporting",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-16T15:13:21.142Z"
+  },
+  {
+    "id": "VOC-152",
+    "title": "Quorum approval details do not show validator operator names",
+    "url": "https://linear.app/anchorlabs/issue/VOC-152/quorum-approval-details-do-not-show-validator-operator-names",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:59.203Z"
+  },
+  {
+    "id": "VOC-154",
+    "title": "Clients cannot easily tell which supported assets also support staking",
+    "url": "https://linear.app/anchorlabs/issue/VOC-154/clients-cannot-easily-tell-which-supported-assets-also-support-staking",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:52:03.245Z"
+  },
+  {
+    "id": "VOC-157",
+    "title": "Clients cannot consume granular system status updates programmatically",
+    "url": "https://linear.app/anchorlabs/issue/VOC-157/clients-cannot-consume-granular-system-status-updates-programmatically",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:59.050Z"
+  },
+  {
+    "id": "VOC-158",
+    "title": "Clients cannot generate custom vault reports with opening and closing balances",
+    "url": "https://linear.app/anchorlabs/issue/VOC-158/clients-cannot-generate-custom-vault-reports-with-opening-and-closing",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:52:02.975Z"
+  },
+  {
+    "id": "VOC-159",
+    "title": "Porto clients can't find tax reporting information",
+    "url": "https://linear.app/anchorlabs/issue/VOC-159/porto-clients-cant-find-tax-reporting-information",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:00:57.172Z"
+  },
+  {
+    "id": "VOC-160",
+    "title": "Trusted sources and destinations cannot be exported self-serve",
+    "url": "https://linear.app/anchorlabs/issue/VOC-160/trusted-sources-and-destinations-cannot-be-exported-self-serve",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:53:23.005Z"
+  },
+  {
+    "id": "VOC-161",
+    "title": "JitoSOL redeems require manual gas requests",
+    "url": "https://linear.app/anchorlabs/issue/VOC-161/jitosol-redeems-require-manual-gas-requests",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:59.123Z"
+  },
+  {
+    "id": "VOC-162",
+    "title": "Clients cannot unflag deposits incorrectly marked as spam",
+    "url": "https://linear.app/anchorlabs/issue/VOC-162/clients-cannot-unflag-deposits-incorrectly-marked-as-spam",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:52:37.342Z"
+  },
+  {
+    "id": "VOC-163",
+    "title": "Daily transaction reports lack initiator and approver data",
+    "url": "https://linear.app/anchorlabs/issue/VOC-163/daily-transaction-reports-lack-initiator-and-approver-data",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:52:02.519Z"
+  },
+  {
+    "id": "VOC-164",
+    "title": "Closed legacy Paradigm affiliate appears in vault creation flow",
+    "url": "https://linear.app/anchorlabs/issue/VOC-164/closed-legacy-paradigm-affiliate-appears-in-vault-creation-flow",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "High",
+    "updatedAt": "2026-06-22T14:59:08.352Z"
+  },
+  {
+    "id": "VOC-165",
+    "title": "State Street - Custom Reporting Request Manual Delivery",
+    "url": "https://linear.app/anchorlabs/issue/VOC-165/state-street-custom-reporting-request-manual-delivery",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "2 - $250k-$1MM",
+    "priority": "No priority",
+    "updatedAt": "2026-06-16T15:13:51.944Z"
+  },
+  {
+    "id": "VOC-166",
+    "title": "Roles and permission reports lack admin-level detail",
+    "url": "https://linear.app/anchorlabs/issue/VOC-166/roles-and-permission-reports-lack-admin-level-detail",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "2 - $250k-$1MM",
+    "priority": "Medium",
+    "updatedAt": "2026-07-03T16:10:36.003Z"
+  },
+  {
+    "id": "VOC-167",
+    "title": "Weekly extract of users and roles",
+    "url": "https://linear.app/anchorlabs/issue/VOC-167/weekly-extract-of-users-and-roles",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-05-07T22:27:37.806Z"
+  },
+  {
+    "id": "VOC-168",
+    "title": "API to communicate Network Fee Thresholds and Wallet Minimum balances by L1",
+    "url": "https://linear.app/anchorlabs/issue/VOC-168/api-to-communicate-network-fee-thresholds-and-wallet-minimum-balances",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:34:01.170Z"
+  },
+  {
+    "id": "VOC-169",
+    "title": "Comprehensive client API activity reporting with drill-downs, filtering",
+    "url": "https://linear.app/anchorlabs/issue/VOC-169/comprehensive-client-api-activity-reporting-with-drill-downs-filtering",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.427Z"
+  },
+  {
+    "id": "VOC-170",
+    "title": "Include Link to API Docs in API error messaging",
+    "url": "https://linear.app/anchorlabs/issue/VOC-170/include-link-to-api-docs-in-api-error-messaging",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.386Z"
+  },
+  {
+    "id": "VOC-171",
+    "title": "Clients cannot increase or merge existing holds",
+    "url": "https://linear.app/anchorlabs/issue/VOC-171/clients-cannot-increase-or-merge-existing-holds",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:38:52.676Z"
+  },
+  {
+    "id": "VOC-172",
+    "title": "Clients cannot create vaults programmatically via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-172/clients-cannot-create-vaults-programmatically-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:47:41.346Z"
+  },
+  {
+    "id": "VOC-173",
+    "title": "Expose OrgID, AccountID, TradingAccountID, Vault ID and Wallet ID mapping via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-173/expose-orgid-accountid-tradingaccountid-vault-id-and-wallet-id-mapping",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:34:01.128Z"
+  },
+  {
+    "id": "VOC-174",
+    "title": "Ability to add approved addresses for external transfer API in bulk (UI & API)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-174/ability-to-add-approved-addresses-for-external-transfer-api-in-bulk-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:34:01.096Z"
+  },
+  {
+    "id": "VOC-175",
+    "title": "Transfers API docs do not match actual response data",
+    "url": "https://linear.app/anchorlabs/issue/VOC-175/transfers-api-docs-do-not-match-actual-response-data",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:21:49.681Z"
+  },
+  {
+    "id": "VOC-176",
+    "title": "ATS holds only support the default wallet",
+    "url": "https://linear.app/anchorlabs/issue/VOC-176/ats-holds-only-support-the-default-wallet",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:48:06.661Z"
+  },
+  {
+    "id": "VOC-177",
+    "title": "Transfer API lacks optional quorum approval available in Withdrawal API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-177/transfer-api-lacks-optional-quorum-approval-available-in-withdrawal",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:22:47.327Z"
+  },
+  {
+    "id": "VOC-178",
+    "title": "Staking balance detail is not available through API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-178/staking-balance-detail-is-not-available-through-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:54:34.198Z"
+  },
+  {
+    "id": "VOC-179",
+    "title": "Internal teams cannot monitor aggregate API activity and errors across sandbox and production",
+    "url": "https://linear.app/anchorlabs/issue/VOC-179/internal-teams-cannot-monitor-aggregate-api-activity-and-errors-across",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.345Z"
+  },
+  {
+    "id": "VOC-180",
+    "title": "\"Create a new Wallet\" Limit \u2014 Update API Docs",
+    "url": "https://linear.app/anchorlabs/issue/VOC-180/create-a-new-wallet-limit-update-api-docs",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T09:37:27.264Z"
+  },
+  {
+    "id": "VOC-181",
+    "title": "Clients cannot schedule recurring withdrawals and transfers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-181/clients-cannot-schedule-recurring-withdrawals-and-transfers",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:28.211Z"
+  },
+  {
+    "id": "VOC-182",
+    "title": "API-initiated transactions do not generate in-app notifications",
+    "url": "https://linear.app/anchorlabs/issue/VOC-182/api-initiated-transactions-do-not-generate-in-app-notifications",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.810Z"
+  },
+  {
+    "id": "VOC-183",
+    "title": "Settlement clients cannot use the Holds API for production-grade workflows",
+    "url": "https://linear.app/anchorlabs/issue/VOC-183/settlement-clients-cannot-use-the-holds-api-for-production-grade",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:47:16.549Z"
+  },
+  {
+    "id": "VOC-184",
+    "title": "Restrict API access to Allowlisted IP Addresses",
+    "url": "https://linear.app/anchorlabs/issue/VOC-184/restrict-api-access-to-allowlisted-ip-addresses",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-07-01T19:44:18.577Z"
+  },
+  {
+    "id": "VOC-185",
+    "title": "API Security \u2014 Allowlist IP Addresses (Product)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-185/api-security-allowlist-ip-addresses-product",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "High",
+    "updatedAt": "2026-07-01T19:44:05.558Z"
+  },
+  {
+    "id": "VOC-186",
+    "title": "List Vaults response does not include Account ID",
+    "url": "https://linear.app/anchorlabs/issue/VOC-186/list-vaults-response-does-not-include-account-id",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:36:36.401Z"
+  },
+  {
+    "id": "VOC-187",
+    "title": "Clients can't see address-level balances in GET Addresses endpoint",
+    "url": "https://linear.app/anchorlabs/issue/VOC-187/clients-cant-see-address-level-balances-in-get-addresses-endpoint",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:48:18.274Z"
+  },
+  {
+    "id": "VOC-188",
+    "title": "PC-to-PC subaccount transfers always carry cost basis",
+    "url": "https://linear.app/anchorlabs/issue/VOC-188/pc-to-pc-subaccount-transfers-always-carry-cost-basis",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:00:55.017Z"
+  },
+  {
+    "id": "VOC-189",
+    "title": "CoinTracker cannot link settlement returns to custody transfers via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-189/cointracker-cannot-link-settlement-returns-to-custody-transfers-via",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:28.124Z"
+  },
+  {
+    "id": "VOC-190",
+    "title": "Clients cannot grant read-only access to transfer history via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-190/clients-cannot-grant-read-only-access-to-transfer-history-via-api",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.306Z"
+  },
+  {
+    "id": "VOC-191",
+    "title": "Webhooks \u2192 Transaction ID takes 3 hops",
+    "url": "https://linear.app/anchorlabs/issue/VOC-191/webhooks-transaction-id-takes-3-hops",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:19:56.815Z"
+  },
+  {
+    "id": "VOC-192",
+    "title": "Settlements and Atlas approvals require web access when mobile",
+    "url": "https://linear.app/anchorlabs/issue/VOC-192/settlements-and-atlas-approvals-require-web-access-when-mobile",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:41:06.814Z"
+  },
+  {
+    "id": "VOC-193",
+    "title": "Clients cannot see which trusted destinations are linked to API permission groups",
+    "url": "https://linear.app/anchorlabs/issue/VOC-193/clients-cannot-see-which-trusted-destinations-are-linked-to-api",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.244Z"
+  },
+  {
+    "id": "VOC-194",
+    "title": "Clients cannot retrieve the list of staking-supported assets via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-194/clients-cannot-retrieve-the-list-of-staking-supported-assets-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:27.841Z"
+  },
+  {
+    "id": "VOC-195",
+    "title": "Operations cannot trigger settlement APIs directly from RDB",
+    "url": "https://linear.app/anchorlabs/issue/VOC-195/operations-cannot-trigger-settlement-apis-directly-from-rdb",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:27.734Z"
+  },
+  {
+    "id": "VOC-196",
+    "title": "Withdrawals to Trusted Destinations still go through the standard risk review flow",
+    "url": "https://linear.app/anchorlabs/issue/VOC-196/withdrawals-to-trusted-destinations-still-go-through-the-standard-risk",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T18:55:34.320Z"
+  },
+  {
+    "id": "VOC-197",
+    "title": "API docs list INTERNAL_TRANSFER as an available permission",
+    "url": "https://linear.app/anchorlabs/issue/VOC-197/api-docs-list-internal-transfer-as-an-available-permission",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:23:13.505Z"
+  },
+  {
+    "id": "VOC-198",
+    "title": "Remove duplicate assetType in List Transactions Response",
+    "url": "https://linear.app/anchorlabs/issue/VOC-198/remove-duplicate-assettype-in-list-transactions-response",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:34:00.854Z"
+  },
+  {
+    "id": "VOC-199",
+    "title": "Clients cannot check API health or subscribe to status updates",
+    "url": "https://linear.app/anchorlabs/issue/VOC-199/clients-cannot-check-api-health-or-subscribe-to-status-updates",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "2 - $250k-$1MM",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.228Z"
+  },
+  {
+    "id": "VOC-200",
+    "title": "Create Wallet does not support client UID and List Wallets cannot filter by wallet name",
+    "url": "https://linear.app/anchorlabs/issue/VOC-200/create-wallet-does-not-support-client-uid-and-list-wallets-cannot",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:37:53.553Z"
+  },
+  {
+    "id": "VOC-201",
+    "title": "Monthly custody statements do not separate spam deposits from legitimate deposits",
+    "url": "https://linear.app/anchorlabs/issue/VOC-201/monthly-custody-statements-do-not-separate-spam-deposits-from",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:08.475Z"
+  },
+  {
+    "id": "VOC-202",
+    "title": "Create Wallets API can create duplicate wallets on retried requests",
+    "url": "https://linear.app/anchorlabs/issue/VOC-202/create-wallets-api-can-create-duplicate-wallets-on-retried-requests",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Platform Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T18:14:03.691Z"
+  },
+  {
+    "id": "VOC-203",
+    "title": "Client cannot pull Trusted Sources via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-203/client-cannot-pull-trusted-sources-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:38:21.137Z"
+  },
+  {
+    "id": "VOC-204",
+    "title": "Trusted Destinations API response omits AML questionnaire data",
+    "url": "https://linear.app/anchorlabs/issue/VOC-204/trusted-destinations-api-response-omits-aml-questionnaire-data",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T18:52:06.271Z"
+  },
+  {
+    "id": "VOC-205",
+    "title": "Settlement clients cannot use internal transfer API with Anchorage destination addresses",
+    "url": "https://linear.app/anchorlabs/issue/VOC-205/settlement-clients-cannot-use-internal-transfer-api-with-anchorage",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Trading Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:27.637Z"
+  },
+  {
+    "id": "VOC-206",
+    "title": "Clients cannot access network fee estimates via API or websocket",
+    "url": "https://linear.app/anchorlabs/issue/VOC-206/clients-cannot-access-network-fee-estimates-via-api-or-websocket",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:50:41.961Z"
+  },
+  {
+    "id": "VOC-207",
+    "title": "API \u2014 Read All Vaults at Affiliate Level",
+    "url": "https://linear.app/anchorlabs/issue/VOC-207/api-read-all-vaults-at-affiliate-level",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:34:00.806Z"
+  },
+  {
+    "id": "VOC-208",
+    "title": "API does not support alternative intra-day cut-off times for end-of-day data queries",
+    "url": "https://linear.app/anchorlabs/issue/VOC-208/api-does-not-support-alternative-intra-day-cut-off-times-for-end-of",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:20:22.002Z"
+  },
+  {
+    "id": "VOC-209",
+    "title": "Internal pricing coverage relies on manual fallback sources for unsupported assets",
+    "url": "https://linear.app/anchorlabs/issue/VOC-209/internal-pricing-coverage-relies-on-manual-fallback-sources-for",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:04:27.524Z"
+  },
+  {
+    "id": "VOC-210",
+    "title": "Staking clients cannot access earned rewards reporting before claims",
+    "url": "https://linear.app/anchorlabs/issue/VOC-210/staking-clients-cannot-access-earned-rewards-reporting-before-claims",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:59.645Z"
+  },
+  {
+    "id": "VOC-211",
+    "title": "List Transfers by VaultID omits wallet-sourced transfers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-211/list-transfers-by-vaultid-omits-wallet-sourced-transfers",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:51:14.604Z"
+  },
+  {
+    "id": "VOC-212",
+    "title": "Clients cannot self-serve API status and known errors externally",
+    "url": "https://linear.app/anchorlabs/issue/VOC-212/clients-cannot-self-serve-api-status-and-known-errors-externally",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.763Z"
+  },
+  {
+    "id": "VOC-213",
+    "title": "RIA SMA fiat withdrawals require manual PC authentication and handling",
+    "url": "https://linear.app/anchorlabs/issue/VOC-213/ria-sma-fiat-withdrawals-require-manual-pc-authentication-and-handling",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:54:06.058Z"
+  },
+  {
+    "id": "VOC-214",
+    "title": "RIA SMA crypto withdrawals require manual PC authentication and processing",
+    "url": "https://linear.app/anchorlabs/issue/VOC-214/ria-sma-crypto-withdrawals-require-manual-pc-authentication-and",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:54:26.403Z"
+  },
+  {
+    "id": "VOC-215",
+    "title": "Deposit Sweep Automation (RIA Platform)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-215/deposit-sweep-automation-ria-platform",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:38.465Z"
+  },
+  {
+    "id": "VOC-216",
+    "title": "RIA clients cannot programmatically access Anchorage crypto pricing data",
+    "url": "https://linear.app/anchorlabs/issue/VOC-216/ria-clients-cannot-programmatically-access-anchorage-crypto-pricing",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:55:20.477Z"
+  },
+  {
+    "id": "VOC-217",
+    "title": "RIA Program Customers cannot be charged flat fees",
+    "url": "https://linear.app/anchorlabs/issue/VOC-217/ria-program-customers-cannot-be-charged-flat-fees",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:56:19.459Z"
+  },
+  {
+    "id": "VOC-218",
+    "title": "In-Kind Fee Debiting for RIA Program Customers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-218/in-kind-fee-debiting-for-ria-program-customers",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:42.534Z"
+  },
+  {
+    "id": "VOC-219",
+    "title": "Ability to Charge Fee Rates by Asset for RIA PCs",
+    "url": "https://linear.app/anchorlabs/issue/VOC-219/ability-to-charge-fee-rates-by-asset-for-ria-pcs",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:45.902Z"
+  },
+  {
+    "id": "VOC-220",
+    "title": "Ability to Change PC Fee Rates Mid-Cycle",
+    "url": "https://linear.app/anchorlabs/issue/VOC-220/ability-to-change-pc-fee-rates-mid-cycle",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:50.193Z"
+  },
+  {
+    "id": "VOC-221",
+    "title": "Tax Lot Trading (Discovery Work)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-221/tax-lot-trading-discovery-work",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:52.888Z"
+  },
+  {
+    "id": "VOC-222",
+    "title": "Optimize Manual Processes for RIA Fee Debiting",
+    "url": "https://linear.app/anchorlabs/issue/VOC-222/optimize-manual-processes-for-ria-fee-debiting",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:55.656Z"
+  },
+  {
+    "id": "VOC-223",
+    "title": "Automate RIA Invoice/Remittance Statement Generation",
+    "url": "https://linear.app/anchorlabs/issue/VOC-223/automate-ria-invoiceremittance-statement-generation",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:58.455Z"
+  },
+  {
+    "id": "VOC-224",
+    "title": "ACH Support for RIA Platform",
+    "url": "https://linear.app/anchorlabs/issue/VOC-224/ach-support-for-ria-platform",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T14:00:01.211Z"
+  },
+  {
+    "id": "VOC-225",
+    "title": "Clients cannot exclude fiat balances from custody fee calculations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-225/clients-cannot-exclude-fiat-balances-from-custody-fee-calculations",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:08.669Z"
+  },
+  {
+    "id": "VOC-226",
+    "title": "RIAs cannot place holds on client USD or crypto balances",
+    "url": "https://linear.app/anchorlabs/issue/VOC-226/rias-cannot-place-holds-on-client-usd-or-crypto-balances",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:08.762Z"
+  },
+  {
+    "id": "VOC-227",
+    "title": "API error messages are vague and misleading",
+    "url": "https://linear.app/anchorlabs/issue/VOC-227/api-error-messages-are-vague-and-misleading",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.722Z"
+  },
+  {
+    "id": "VOC-228",
+    "title": "Operations filters do not show created or executed holds",
+    "url": "https://linear.app/anchorlabs/issue/VOC-228/operations-filters-do-not-show-created-or-executed-holds",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T18:49:15.010Z"
+  },
+  {
+    "id": "VOC-229",
+    "title": "Clients cannot access live and historical spot price data from Anchorage for their UIs and products",
+    "url": "https://linear.app/anchorlabs/issue/VOC-229/clients-cannot-access-live-and-historical-spot-price-data-from",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:40:44.814Z"
+  },
+  {
+    "id": "VOC-230",
+    "title": "Clients cannot receive daily fiat transaction and balance reports via e-Delivery",
+    "url": "https://linear.app/anchorlabs/issue/VOC-230/clients-cannot-receive-daily-fiat-transaction-and-balance-reports-via",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:41:37.285Z"
+  },
+  {
+    "id": "VOC-231",
+    "title": "Clients cannot receive custody and brokerage statements as PDFs",
+    "url": "https://linear.app/anchorlabs/issue/VOC-231/clients-cannot-receive-custody-and-brokerage-statements-as-pdfs",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:17:59.010Z"
+  },
+  {
+    "id": "VOC-232",
+    "title": "Show 'Create New API Key' in RDB Org Activity Log",
+    "url": "https://linear.app/anchorlabs/issue/VOC-232/show-create-new-api-key-in-rdb-org-activity-log",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:52:44.193Z"
+  },
+  {
+    "id": "VOC-233",
+    "title": "Clients cannot list trusted destinations and sources via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-233/clients-cannot-list-trusted-destinations-and-sources-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:45:55.770Z"
+  },
+  {
+    "id": "VOC-234",
+    "title": "Clients cannot create or remove trusted destinations via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-234/clients-cannot-create-or-remove-trusted-destinations-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T15:18:52.021Z"
+  },
+  {
+    "id": "VOC-235",
+    "title": "Trusted destinations do not bypass AML questionnaire in Withdrawal API and External Transfer API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-235/trusted-destinations-do-not-bypass-aml-questionnaire-in-withdrawal-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:39:11.954Z"
+  },
+  {
+    "id": "VOC-236",
+    "title": "RDB does not show what changed when API permission groups are edited",
+    "url": "https://linear.app/anchorlabs/issue/VOC-236/rdb-does-not-show-what-changed-when-api-permission-groups-are-edited",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-07-08T14:35:17.044Z"
+  },
+  {
+    "id": "VOC-237",
+    "title": "Internal API Key & Permission Group Visibility (Staging & Prod) in Retool or RDB",
+    "url": "https://linear.app/anchorlabs/issue/VOC-237/internal-api-key-and-permission-group-visibility-staging-and-prod-in",
+    "status": "Reviewed by PDE Team",
+    "stage": "reviewed_pde",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:54.616Z"
+  },
+  {
+    "id": "VOC-238",
+    "title": "View-Only User in Production for CX Assistance",
+    "url": "https://linear.app/anchorlabs/issue/VOC-238/view-only-user-in-production-for-cx-assistance",
+    "status": "Reviewed by PDE Team",
+    "stage": "reviewed_pde",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:49.814Z"
+  },
+  {
+    "id": "VOC-239",
+    "title": "Clients can't group vaults by affiliate when configuring API permission groups",
+    "url": "https://linear.app/anchorlabs/issue/VOC-239/clients-cant-group-vaults-by-affiliate-when-configuring-api-permission",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.670Z"
+  },
+  {
+    "id": "VOC-240",
+    "title": "API does not provide granular visibility into quorum approval status",
+    "url": "https://linear.app/anchorlabs/issue/VOC-240/api-does-not-provide-granular-visibility-into-quorum-approval-status",
+    "status": "Reviewed by PDE Team",
+    "stage": "reviewed_pde",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:49:35.025Z"
+  },
+  {
+    "id": "VOC-241",
+    "title": "Rewards Adjustment transactions are missing from activity history and the API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-241/rewards-adjustment-transactions-are-missing-from-activity-history-and",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:47:41.113Z"
+  },
+  {
+    "id": "VOC-242",
+    "title": "Single Device Replacement Across All Associated Organizations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-242/single-device-replacement-across-all-associated-organizations",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.194Z"
+  },
+  {
+    "id": "VOC-243",
+    "title": "Transaction Expiration Notification",
+    "url": "https://linear.app/anchorlabs/issue/VOC-243/transaction-expiration-notification",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:49:20.079Z"
+  },
+  {
+    "id": "VOC-244",
+    "title": "Clients cannot transfer SOL directly to stake account addresses",
+    "url": "https://linear.app/anchorlabs/issue/VOC-244/clients-cannot-transfer-sol-directly-to-stake-account-addresses",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T13:47:06.492Z"
+  },
+  {
+    "id": "VOC-245",
+    "title": "Provide Initiator and Approver in Transactions API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-245/provide-initiator-and-approver-in-transactions-api",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.633Z"
+  },
+  {
+    "id": "VOC-246",
+    "title": "Only Allow API-Initiated Withdrawals Feature (Toggle)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-246/only-allow-api-initiated-withdrawals-feature-toggle",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.585Z"
+  },
+  {
+    "id": "VOC-247",
+    "title": "Account Management APIs",
+    "url": "https://linear.app/anchorlabs/issue/VOC-247/account-management-apis",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.540Z"
+  },
+  {
+    "id": "VOC-248",
+    "title": "Clients can't download list of trusted destinations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-248/clients-cant-download-list-of-trusted-destinations",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:46:25.602Z"
+  },
+  {
+    "id": "VOC-249",
+    "title": "Clients do not receive automated alerts for asset support changes",
+    "url": "https://linear.app/anchorlabs/issue/VOC-249/clients-do-not-receive-automated-alerts-for-asset-support-changes",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Asset Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:40:11.048Z"
+  },
+  {
+    "id": "VOC-250",
+    "title": "Add 'Price' Field to List Subaccount Transactions API Response",
+    "url": "https://linear.app/anchorlabs/issue/VOC-250/add-price-field-to-list-subaccount-transactions-api-response",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-10T13:59:34.848Z"
+  },
+  {
+    "id": "VOC-251",
+    "title": "Clients cannot download trusted destinations list as CSV from Web Dashboard",
+    "url": "https://linear.app/anchorlabs/issue/VOC-251/clients-cannot-download-trusted-destinations-list-as-csv-from-web",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:39:52.053Z"
+  },
+  {
+    "id": "VOC-252",
+    "title": "Clients can't edit trusted destinations in the Web Dashboard",
+    "url": "https://linear.app/anchorlabs/issue/VOC-252/clients-cant-edit-trusted-destinations-in-the-web-dashboard",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:39:33.592Z"
+  },
+  {
+    "id": "VOC-253",
+    "title": "Clients cannot bulk create wallet addresses",
+    "url": "https://linear.app/anchorlabs/issue/VOC-253/clients-cannot-bulk-create-wallet-addresses",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:46:53.227Z"
+  },
+  {
+    "id": "VOC-254",
+    "title": "Granular Withdrawal Sub-Quorum (Destination Specific)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-254/granular-withdrawal-sub-quorum-destination-specific",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:41:52.099Z"
+  },
+  {
+    "id": "VOC-255",
+    "title": "Clients cannot see detailed KYC application status during onboarding",
+    "url": "https://linear.app/anchorlabs/issue/VOC-255/clients-cannot-see-detailed-kyc-application-status-during-onboarding",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:52:37.223Z"
+  },
+  {
+    "id": "VOC-256",
+    "title": "VoC issues do not capture duplicate demand signals or Salesforce client type",
+    "url": "https://linear.app/anchorlabs/issue/VOC-256/voc-issues-do-not-capture-duplicate-demand-signals-or-salesforce",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:52:02.170Z"
+  },
+  {
+    "id": "VOC-257",
+    "title": "Clients see empty auto-created wallets they did not create",
+    "url": "https://linear.app/anchorlabs/issue/VOC-257/clients-see-empty-auto-created-wallets-they-did-not-create",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-07-02T14:49:13.847Z"
+  },
+  {
+    "id": "VOC-258",
+    "title": "Switching between organizations in the web dashboard feels disjointed",
+    "url": "https://linear.app/anchorlabs/issue/VOC-258/switching-between-organizations-in-the-web-dashboard-feels-disjointed",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.292Z"
+  },
+  {
+    "id": "VOC-259",
+    "title": "Org-level pending action alerts across organizations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-259/org-level-pending-action-alerts-across-organizations",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:48:39.656Z"
+  },
+  {
+    "id": "VOC-260",
+    "title": "Trusted source freezes do not explain the reason in the UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-260/trusted-source-freezes-do-not-explain-the-reason-in-the-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:53:33.771Z"
+  },
+  {
+    "id": "VOC-261",
+    "title": "HYPE Staking UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-261/hype-staking-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "No priority",
+    "updatedAt": "2026-06-16T15:13:21.234Z"
+  },
+  {
+    "id": "VOC-262",
+    "title": "Clients cannot receive a PDF copy of their ADS KYC application",
+    "url": "https://linear.app/anchorlabs/issue/VOC-262/clients-cannot-receive-a-pdf-copy-of-their-ads-kyc-application",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-06-17T19:35:37.664Z"
+  },
+  {
+    "id": "VOC-263",
+    "title": "Clients must manage multiple separate custody invoice emails",
+    "url": "https://linear.app/anchorlabs/issue/VOC-263/clients-must-manage-multiple-separate-custody-invoice-emails",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-17T20:00:04.572Z"
+  },
+  {
+    "id": "VOC-264",
+    "title": "Wallet can't be restricted to ether.fi contracts only",
+    "url": "https://linear.app/anchorlabs/issue/VOC-264/wallet-cant-be-restricted-to-etherfi-contracts-only",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-11T15:53:42.583Z"
+  },
+  {
+    "id": "VOC-265",
+    "title": "Clients cannot allowlist only approved smart contract methods",
+    "url": "https://linear.app/anchorlabs/issue/VOC-265/clients-cannot-allowlist-only-approved-smart-contract-methods",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:01.909Z"
+  },
+  {
+    "id": "VOC-266",
+    "title": "Unable to set per-transaction and recurring transaction caps",
+    "url": "https://linear.app/anchorlabs/issue/VOC-266/unable-to-set-per-transaction-and-recurring-transaction-caps",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-07T11:26:58.842Z"
+  },
+  {
+    "id": "VOC-267",
+    "title": "Policy changes can\u2019t be gated by a higher approval quorum",
+    "url": "https://linear.app/anchorlabs/issue/VOC-267/policy-changes-cant-be-gated-by-a-higher-approval-quorum",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-07T11:26:58.842Z"
+  },
+  {
+    "id": "VOC-268",
+    "title": "Policy changes can't be scheduled to take effect later",
+    "url": "https://linear.app/anchorlabs/issue/VOC-268/policy-changes-cant-be-scheduled-to-take-effect-later",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-02T17:45:08.549Z"
+  },
+  {
+    "id": "VOC-269",
+    "title": "Clients can't tell what the mobile approval screen is showing",
+    "url": "https://linear.app/anchorlabs/issue/VOC-269/clients-cant-tell-what-the-mobile-approval-screen-is-showing",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-11T15:53:21.628Z"
+  },
+  {
+    "id": "VOC-270",
+    "title": "Co-signers can\u2019t review pending transactions before approving on mobile",
+    "url": "https://linear.app/anchorlabs/issue/VOC-270/co-signers-cant-review-pending-transactions-before-approving-on-mobile",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-11T15:53:17.340Z"
+  },
+  {
+    "id": "VOC-271",
+    "title": "Clients lack on-device transaction review and simulation safeguards",
+    "url": "https://linear.app/anchorlabs/issue/VOC-271/clients-lack-on-device-transaction-review-and-simulation-safeguards",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:02.396Z"
+  },
+  {
+    "id": "VOC-272",
+    "title": "Clients can\u2019t self-serve scheduled email delivery for balance and activity reports",
+    "url": "https://linear.app/anchorlabs/issue/VOC-272/clients-cant-self-serve-scheduled-email-delivery-for-balance-and",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T15:13:52.457Z"
+  },
+  {
+    "id": "VOC-273",
+    "title": "Vault policies do not support approval-only access",
+    "url": "https://linear.app/anchorlabs/issue/VOC-273/vault-policies-do-not-support-approval-only-access",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.882Z"
+  },
+  {
+    "id": "VOC-275",
+    "title": "AnchorZero onboarding is blocked by missing ACH and named accounts",
+    "url": "https://linear.app/anchorlabs/issue/VOC-275/anchorzero-onboarding-is-blocked-by-missing-ach-and-named-accounts",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "High",
+    "updatedAt": "2026-07-20T19:38:16.006Z"
+  },
+  {
+    "id": "VOC-277",
+    "title": "Lack of Client Visibility During KYC & Onboarding",
+    "url": "https://linear.app/anchorlabs/issue/VOC-277/lack-of-client-visibility-during-kyc-and-onboarding",
+    "status": "Duplicate",
+    "stage": "closed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-05-14T14:56:50.084Z"
+  },
+  {
+    "id": "VOC-278",
+    "title": "Accidental rejections happen too easily in app approval flow",
+    "url": "https://linear.app/anchorlabs/issue/VOC-278/accidental-rejections-happen-too-easily-in-app-approval-flow",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T19:46:40.260Z"
+  },
+  {
+    "id": "VOC-279",
+    "title": "Hard to find the right wallet when empty wallets appear first",
+    "url": "https://linear.app/anchorlabs/issue/VOC-279/hard-to-find-the-right-wallet-when-empty-wallets-appear-first",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-11T15:52:53.929Z"
+  },
+  {
+    "id": "VOC-280",
+    "title": "Available balance disappears at smaller zoom levels during wallet selection",
+    "url": "https://linear.app/anchorlabs/issue/VOC-280/available-balance-disappears-at-smaller-zoom-levels-during-wallet",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.807Z"
+  },
+  {
+    "id": "VOC-281",
+    "title": "Reviewers can\u2019t see vault names during HYPE bridging",
+    "url": "https://linear.app/anchorlabs/issue/VOC-281/reviewers-cant-see-vault-names-during-hype-bridging",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:02.037Z"
+  },
+  {
+    "id": "VOC-283",
+    "title": "Clients can't create external withdrawal API permission groups before trusted destinations exist",
+    "url": "https://linear.app/anchorlabs/issue/VOC-283/clients-cant-create-external-withdrawal-api-permission-groups-before",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T14:49:58.928Z"
+  },
+  {
+    "id": "VOC-284",
+    "title": "Trusted destinations with the same address are hidden in the withdrawal dropdown",
+    "url": "https://linear.app/anchorlabs/issue/VOC-284/trusted-destinations-with-the-same-address-are-hidden-in-the",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T20:37:20.858Z"
+  },
+  {
+    "id": "VOC-285",
+    "title": "Clients cannot see post-trade TWAP fill analytics",
+    "url": "https://linear.app/anchorlabs/issue/VOC-285/clients-cannot-see-post-trade-twap-fill-analytics",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Trading Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "3 - $100k-$250k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:02:59.490Z"
+  },
+  {
+    "id": "VOC-286",
+    "title": "Android users cannot access Anchorage workflows without a dedicated iPhone setup",
+    "url": "https://linear.app/anchorlabs/issue/VOC-286/android-users-cannot-access-anchorage-workflows-without-a-dedicated",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:52:02.276Z"
+  },
+  {
+    "id": "VOC-287",
+    "title": "Clients cannot restrict internal transfers to their own organization via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-287/clients-cannot-restrict-internal-transfers-to-their-own-organization",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-23T09:45:53.387Z"
+  },
+  {
+    "id": "VOC-288",
+    "title": "Clients lack a money market fund option for excess fiat cash",
+    "url": "https://linear.app/anchorlabs/issue/VOC-288/clients-lack-a-money-market-fund-option-for-excess-fiat-cash",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.739Z"
+  },
+  {
+    "id": "VOC-289",
+    "title": "Lack of ADS/Singapore fiat support blocks APAC SWIFT wires",
+    "url": "https://linear.app/anchorlabs/issue/VOC-289/lack-of-adssingapore-fiat-support-blocks-apac-swift-wires",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T15:13:20.817Z"
+  },
+  {
+    "id": "VOC-290",
+    "title": "Vault policies do not support approval-only access",
+    "url": "https://linear.app/anchorlabs/issue/VOC-290/vault-policies-do-not-support-approval-only-access",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.846Z"
+  },
+  {
+    "id": "VOC-291",
+    "title": "Solana transaction limits are slowing client operations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-291/solana-transaction-limits-are-slowing-client-operations",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "Medium",
+    "updatedAt": "2026-06-22T16:53:17.123Z"
+  },
+  {
+    "id": "VOC-292",
+    "title": "Global Markets trade recap details aren't available via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-292/global-markets-trade-recap-details-arent-available-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Trading Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "High",
+    "updatedAt": "2026-06-17T19:31:30.073Z"
+  },
+  {
+    "id": "VOC-293",
+    "title": "Clients can\u2019t self-serve bank-ready deposit instruction letters",
+    "url": "https://linear.app/anchorlabs/issue/VOC-293/clients-cant-self-serve-bank-ready-deposit-instruction-letters",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T16:17:59.010Z"
+  },
+  {
+    "id": "VOC-294",
+    "title": "Manual wallet entry for vesting schedules does not scale",
+    "url": "https://linear.app/anchorlabs/issue/VOC-294/manual-wallet-entry-for-vesting-schedules-does-not-scale",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.514Z"
+  },
+  {
+    "id": "VOC-295",
+    "title": "Clients cannot see vesting dates in the dashboard",
+    "url": "https://linear.app/anchorlabs/issue/VOC-295/clients-cannot-see-vesting-dates-in-the-dashboard",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.399Z"
+  },
+  {
+    "id": "VOC-296",
+    "title": "Canceled vesting schedules remain visible on the dashboard",
+    "url": "https://linear.app/anchorlabs/issue/VOC-296/canceled-vesting-schedules-remain-visible-on-the-dashboard",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.261Z"
+  },
+  {
+    "id": "VOC-297",
+    "title": "Clients cannot manage high-velocity tokenized MMF redemptions through an omnibus model",
+    "url": "https://linear.app/anchorlabs/issue/VOC-297/clients-cannot-manage-high-velocity-tokenized-mmf-redemptions-through",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:08.364Z"
+  },
+  {
+    "id": "VOC-298",
+    "title": "Clients must repeat KYC and issuer onboarding across RWA issuers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-298/clients-must-repeat-kyc-and-issuer-onboarding-across-rwa-issuers",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:07.761Z"
+  },
+  {
+    "id": "VOC-299",
+    "title": "Public BTC wallets cannot keep disclosed addresses stable after transfers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-299/public-btc-wallets-cannot-keep-disclosed-addresses-stable-after",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:07.540Z"
+  },
+  {
+    "id": "VOC-300",
+    "title": "Blocked from logging in with a 403 error",
+    "url": "https://linear.app/anchorlabs/issue/VOC-300/blocked-from-logging-in-with-a-403-error",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-02T17:45:08.506Z"
+  },
+  {
+    "id": "VOC-301",
+    "title": "Frustrating Manual Process for Clients in a Partial Quorum Recovery",
+    "url": "https://linear.app/anchorlabs/issue/VOC-301/frustrating-manual-process-for-clients-in-a-partial-quorum-recovery",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T19:48:22.860Z"
+  },
+  {
+    "id": "VOC-302",
+    "title": "Clients cannot query vault wallets by the assets they currently hold",
+    "url": "https://linear.app/anchorlabs/issue/VOC-302/clients-cannot-query-vault-wallets-by-the-assets-they-currently-hold",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:44:02.077Z"
+  },
+  {
+    "id": "VOC-303",
+    "title": "Strike cannot use RTP and ACH rails for fund movements, retail flows, and payouts",
+    "url": "https://linear.app/anchorlabs/issue/VOC-303/strike-cannot-use-rtp-and-ach-rails-for-fund-movements-retail-flows",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-17T19:57:54.506Z"
+  },
+  {
+    "id": "VOC-304",
+    "title": "Clients cannot mint and burn RWAs through a single Anchorage integration",
+    "url": "https://linear.app/anchorlabs/issue/VOC-304/clients-cannot-mint-and-burn-rwas-through-a-single-anchorage",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Porto App"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:07.904Z"
+  },
+  {
+    "id": "VOC-305",
+    "title": "Fund admins cannot access balance and transaction reporting via API",
+    "url": "https://linear.app/anchorlabs/issue/VOC-305/fund-admins-cannot-access-balance-and-transaction-reporting-via-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Asset Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T18:59:55.734Z"
+  },
+  {
+    "id": "VOC-306",
+    "title": "USD balances only support a flat interest rate",
+    "url": "https://linear.app/anchorlabs/issue/VOC-306/usd-balances-only-support-a-flat-interest-rate",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:49:04.269Z"
+  },
+  {
+    "id": "VOC-307",
+    "title": "Write-permission API key creation can bypass quorum and over-broaden admin access",
+    "url": "https://linear.app/anchorlabs/issue/VOC-307/write-permission-api-key-creation-can-bypass-quorum-and-over-broaden",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:54.970Z"
+  },
+  {
+    "id": "VOC-308",
+    "title": "Embedded RWA issuer onboarding does not prefill entity KYC",
+    "url": "https://linear.app/anchorlabs/issue/VOC-308/embedded-rwa-issuer-onboarding-does-not-prefill-entity-kyc",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:42:08.238Z"
+  },
+  {
+    "id": "VOC-309",
+    "title": "Quorum approvals don't show timestamps with timezone",
+    "url": "https://linear.app/anchorlabs/issue/VOC-309/quorum-approvals-dont-show-timestamps-with-timezone",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.007Z"
+  },
+  {
+    "id": "VOC-310",
+    "title": "Support threshold-based approvals for lower-risk actions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-310/support-threshold-based-approvals-for-lower-risk-actions",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-07T11:26:58.842Z"
+  },
+  {
+    "id": "VOC-311",
+    "title": "Transaction and approval notifications are too noisy in the mobile app",
+    "url": "https://linear.app/anchorlabs/issue/VOC-311/transaction-and-approval-notifications-are-too-noisy-in-the-mobile-app",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T19:47:36.734Z"
+  },
+  {
+    "id": "VOC-312",
+    "title": "Critical alerts are not visible in the web UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-312/critical-alerts-are-not-visible-in-the-web-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:47:01.531Z"
+  },
+  {
+    "id": "VOC-313",
+    "title": "Clients aren't notified before API product changes ship",
+    "url": "https://linear.app/anchorlabs/issue/VOC-313/clients-arent-notified-before-api-product-changes-ship",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Client Solutions & Enablement"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:54:55.973Z"
+  },
+  {
+    "id": "VOC-314",
+    "title": "Pending Deposit Attributions page lacks USD value column",
+    "url": "https://linear.app/anchorlabs/issue/VOC-314/pending-deposit-attributions-page-lacks-usd-value-column",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:56:12.704Z"
+  },
+  {
+    "id": "VOC-315",
+    "title": "Creating segregated EVM wallets requires exhausting existing wallets first",
+    "url": "https://linear.app/anchorlabs/issue/VOC-315/creating-segregated-evm-wallets-requires-exhausting-existing-wallets",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:55:48.317Z"
+  },
+  {
+    "id": "VOC-316",
+    "title": "Clients lack a customer-facing API status page",
+    "url": "https://linear.app/anchorlabs/issue/VOC-316/clients-lack-a-customer-facing-api-status-page",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.044Z"
+  },
+  {
+    "id": "VOC-317",
+    "title": "Fix broken API User Guide links in portal",
+    "url": "https://linear.app/anchorlabs/issue/VOC-317/fix-broken-api-user-guide-links-in-portal",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:35:46.167Z"
+  },
+  {
+    "id": "VOC-318",
+    "title": "Multi-org switching and notifications are clunky and inconsistent",
+    "url": "https://linear.app/anchorlabs/issue/VOC-318/multi-org-switching-and-notifications-are-clunky-and-inconsistent",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.086Z"
+  },
+  {
+    "id": "VOC-319",
+    "title": "Lending clients can't give micro-borrowers signer access without exposing other sub-accounts",
+    "url": "https://linear.app/anchorlabs/issue/VOC-319/lending-clients-cant-give-micro-borrowers-signer-access-without",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:55:22.176Z"
+  },
+  {
+    "id": "VOC-320",
+    "title": "Spam deposits can't be hidden when reviewing deposits",
+    "url": "https://linear.app/anchorlabs/issue/VOC-320/spam-deposits-cant-be-hidden-when-reviewing-deposits",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T18:43:13.358Z"
+  },
+  {
+    "id": "VOC-321",
+    "title": "Unstake and claim require separate approval flows",
+    "url": "https://linear.app/anchorlabs/issue/VOC-321/unstake-and-claim-require-separate-approval-flows",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:02:47.251Z"
+  },
+  {
+    "id": "VOC-322",
+    "title": "Sending test transactions to new destinations is cumbersome",
+    "url": "https://linear.app/anchorlabs/issue/VOC-322/sending-test-transactions-to-new-destinations-is-cumbersome",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T20:02:27.069Z"
+  },
+  {
+    "id": "VOC-323",
+    "title": "Vault policies can't be configured in bulk during wallet migration",
+    "url": "https://linear.app/anchorlabs/issue/VOC-323/vault-policies-cant-be-configured-in-bulk-during-wallet-migration",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:44:55.120Z"
+  },
+  {
+    "id": "VOC-324",
+    "title": "Address verification lacks a copy button",
+    "url": "https://linear.app/anchorlabs/issue/VOC-324/address-verification-lacks-a-copy-button",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:51:52.248Z"
+  },
+  {
+    "id": "VOC-325",
+    "title": "Wallet and vault terminology is hard for Chinese clients to understand and pronounce",
+    "url": "https://linear.app/anchorlabs/issue/VOC-325/wallet-and-vault-terminology-is-hard-for-chinese-clients-to-understand",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:51:26.504Z"
+  },
+  {
+    "id": "VOC-326",
+    "title": "Client cannot set different quorum requirements by USD or native-unit threshold",
+    "url": "https://linear.app/anchorlabs/issue/VOC-326/client-cannot-set-different-quorum-requirements-by-usd-or-native-unit",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-07-07T11:26:58.842Z"
+  },
+  {
+    "id": "VOC-327",
+    "title": "State Street lacks reporting on login and authentication events",
+    "url": "https://linear.app/anchorlabs/issue/VOC-327/state-street-lacks-reporting-on-login-and-authentication-events",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T19:39:36.633Z"
+  },
+  {
+    "id": "VOC-328",
+    "title": "Clients can't use ACH or multi-currency payments via ADB",
+    "url": "https://linear.app/anchorlabs/issue/VOC-328/clients-cant-use-ach-or-multi-currency-payments-via-adb",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:50:58.242Z"
+  },
+  {
+    "id": "VOC-329",
+    "title": "Clients can't use multi-currency for international / SWIFT transactions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-329/clients-cant-use-multi-currency-for-international-swift-transactions",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:44:37.881Z"
+  },
+  {
+    "id": "VOC-330",
+    "title": "Fiat approvals do not support tiered quorum thresholds by amount",
+    "url": "https://linear.app/anchorlabs/issue/VOC-330/fiat-approvals-do-not-support-tiered-quorum-thresholds-by-amount",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-07T11:26:58.842Z"
+  },
+  {
+    "id": "VOC-331",
+    "title": "Clients cannot get bank statements with full bank and account details",
+    "url": "https://linear.app/anchorlabs/issue/VOC-331/clients-cannot-get-bank-statements-with-full-bank-and-account-details",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T16:17:59.010Z"
+  },
+  {
+    "id": "VOC-332",
+    "title": "RN2 Technologies onboarding blocked when enrollment voice phrase was recorded incorrectly",
+    "url": "https://linear.app/anchorlabs/issue/VOC-332/rn2-technologies-onboarding-blocked-when-enrollment-voice-phrase-was",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-06-16T12:57:45.393Z"
+  },
+  {
+    "id": "VOC-333",
+    "title": "Axioma Investments onboarding blocked by enrollment voiceprint failure",
+    "url": "https://linear.app/anchorlabs/issue/VOC-333/axioma-investments-onboarding-blocked-by-enrollment-voiceprint-failure",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "High",
+    "updatedAt": "2026-06-16T15:13:43.511Z"
+  },
+  {
+    "id": "VOC-334",
+    "title": "Wrong videos on add-user operation block onboarding",
+    "url": "https://linear.app/anchorlabs/issue/VOC-334/wrong-videos-on-add-user-operation-block-onboarding",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T15:13:43.450Z"
+  },
+  {
+    "id": "VOC-335",
+    "title": "Fealty Group onboarding was blocked after rejecting an invalid submission broke the retool",
+    "url": "https://linear.app/anchorlabs/issue/VOC-335/fealty-group-onboarding-was-blocked-after-rejecting-an-invalid",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T15:13:43.353Z"
+  },
+  {
+    "id": "VOC-336",
+    "title": "Transfer API responses omit USD-equivalent fee values",
+    "url": "https://linear.app/anchorlabs/issue/VOC-336/transfer-api-responses-omit-usd-equivalent-fee-values",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:37:13.273Z"
+  },
+  {
+    "id": "VOC-337",
+    "title": "Wallet name missing from web UI download",
+    "url": "https://linear.app/anchorlabs/issue/VOC-337/wallet-name-missing-from-web-ui-download",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-23T10:35:33.892Z"
+  },
+  {
+    "id": "VOC-338",
+    "title": "Itau Unibanco requires federated authentication with Entra ID to proceed",
+    "url": "https://linear.app/anchorlabs/issue/VOC-338/itau-unibanco-requires-federated-authentication-with-entra-id-to",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-17T19:58:51.482Z"
+  },
+  {
+    "id": "VOC-339",
+    "title": "No QuickBooks accounting integration for ACH and wire payments",
+    "url": "https://linear.app/anchorlabs/issue/VOC-339/no-quickbooks-accounting-integration-for-ach-and-wire-payments",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency FBI"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:44:09.341Z"
+  },
+  {
+    "id": "VOC-340",
+    "title": "Hedgey does not support equity cap table management",
+    "url": "https://linear.app/anchorlabs/issue/VOC-340/hedgey-does-not-support-equity-cap-table-management",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Hedgey"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:45:30.375Z"
+  },
+  {
+    "id": "VOC-341",
+    "title": "Bulk granting view-only access across tri-party accounts is manual",
+    "url": "https://linear.app/anchorlabs/issue/VOC-341/bulk-granting-view-only-access-across-tri-party-accounts-is-manual",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T19:45:46.262Z"
+  },
+  {
+    "id": "VOC-342",
+    "title": "Using the KYC date picker feels broken and confusing",
+    "url": "https://linear.app/anchorlabs/issue/VOC-342/using-the-kyc-date-picker-feels-broken-and-confusing",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-23T12:34:22.714Z"
+  },
+  {
+    "id": "VOC-343",
+    "title": "KYC form address autocomplete does not handle New York inputs correctly",
+    "url": "https://linear.app/anchorlabs/issue/VOC-343/kyc-form-address-autocomplete-does-not-handle-new-york-inputs",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:02.595Z"
+  },
+  {
+    "id": "VOC-344",
+    "title": "ID upload flow is not mobile-friendly",
+    "url": "https://linear.app/anchorlabs/issue/VOC-344/id-upload-flow-is-not-mobile-friendly",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:02.595Z"
+  },
+  {
+    "id": "VOC-345",
+    "title": "Mobile KYC form scrolling makes action buttons hard to reach",
+    "url": "https://linear.app/anchorlabs/issue/VOC-345/mobile-kyc-form-scrolling-makes-action-buttons-hard-to-reach",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T20:52:02.682Z"
+  },
+  {
+    "id": "VOC-346",
+    "title": "Reopening the KYC application on mobile shows a session expired error",
+    "url": "https://linear.app/anchorlabs/issue/VOC-346/reopening-the-kyc-application-on-mobile-shows-a-session-expired-error",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-17T19:34:40.881Z"
+  },
+  {
+    "id": "VOC-347",
+    "title": "Hide closed organizations from clients in the iOS organization dropdown",
+    "url": "https://linear.app/anchorlabs/issue/VOC-347/hide-closed-organizations-from-clients-in-the-ios-organization",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-07-08T14:20:47.581Z"
+  },
+  {
+    "id": "VOC-348",
+    "title": "Clients cannot require their risk-control system to approve transfers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-348/clients-cannot-require-their-risk-control-system-to-approve-transfers",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T17:45:08.467Z"
+  },
+  {
+    "id": "VOC-349",
+    "title": "Investigate Temporal workflow panics on default-blockchain-cron",
+    "url": "https://linear.app/anchorlabs/issue/VOC-349/investigate-temporal-workflow-panics-on-default-blockchain-cron",
+    "status": "Canceled",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-16T12:57:54.344Z"
+  },
+  {
+    "id": "VOC-350",
+    "title": "Block trades fail when one account errors",
+    "url": "https://linear.app/anchorlabs/issue/VOC-350/block-trades-fail-when-one-account-errors",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T20:00:30.389Z"
+  },
+  {
+    "id": "VOC-351",
+    "title": "Blue Square lacks post-trade data needed for best execution review",
+    "url": "https://linear.app/anchorlabs/issue/VOC-351/blue-square-lacks-post-trade-data-needed-for-best-execution-review",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T19:41:42.504Z"
+  },
+  {
+    "id": "VOC-353",
+    "title": "Users are confused because trusted-destination-only withdrawals still allow one-time addresses until submission",
+    "url": "https://linear.app/anchorlabs/issue/VOC-353/users-are-confused-because-trusted-destination-only-withdrawals-still",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T15:13:43.599Z"
+  },
+  {
+    "id": "VOC-364",
+    "title": "Unable to add an IPv4 address to the IP allowlist",
+    "url": "https://linear.app/anchorlabs/issue/VOC-364/unable-to-add-an-ipv4-address-to-the-ip-allowlist",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-03T14:43:32.462Z"
+  },
+  {
+    "id": "VOC-370",
+    "title": "Unable to support ongoing SGD payroll out of ADS",
+    "url": "https://linear.app/anchorlabs/issue/VOC-370/unable-to-support-ongoing-sgd-payroll-out-of-ads",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T15:22:50.608Z"
+  },
+  {
+    "id": "VOC-371",
+    "title": "Deposit attribution unavailable in mobile app",
+    "url": "https://linear.app/anchorlabs/issue/VOC-371/deposit-attribution-unavailable-in-mobile-app",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T15:23:41.262Z"
+  },
+  {
+    "id": "VOC-372",
+    "title": "Atlas settlements cannot be accepted from mobile",
+    "url": "https://linear.app/anchorlabs/issue/VOC-372/atlas-settlements-cannot-be-accepted-from-mobile",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Atlas"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-07T15:38:11.851Z"
+  },
+  {
+    "id": "VOC-373",
+    "title": "Marinade native program deposits still require manual attribution",
+    "url": "https://linear.app/anchorlabs/issue/VOC-373/marinade-native-program-deposits-still-require-manual-attribution",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-16T20:05:00.928Z"
+  },
+  {
+    "id": "VOC-374",
+    "title": "Past operations filters still include spam-flagged transactions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-374/past-operations-filters-still-include-spam-flagged-transactions",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-17T18:30:04.311Z"
+  },
+  {
+    "id": "VOC-375",
+    "title": "Wallet creation flow does not confirm success",
+    "url": "https://linear.app/anchorlabs/issue/VOC-375/wallet-creation-flow-does-not-confirm-success",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T15:29:54.317Z"
+  },
+  {
+    "id": "VOC-376",
+    "title": "Clients lack a money market fund sweep option for excess liquidity",
+    "url": "https://linear.app/anchorlabs/issue/VOC-376/clients-lack-a-money-market-fund-sweep-option-for-excess-liquidity",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T15:35:26.755Z"
+  },
+  {
+    "id": "VOC-377",
+    "title": "Wallet UI does not show vesting schedule for locked balance",
+    "url": "https://linear.app/anchorlabs/issue/VOC-377/wallet-ui-does-not-show-vesting-schedule-for-locked-balance",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-18T20:22:45.325Z"
+  },
+  {
+    "id": "VOC-378",
+    "title": "Client cannot pull Trusted Sources via API for reconciliation reporting",
+    "url": "https://linear.app/anchorlabs/issue/VOC-378/client-cannot-pull-trusted-sources-via-api-for-reconciliation",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-24T19:31:54.489Z"
+  },
+  {
+    "id": "VOC-379",
+    "title": "Trusted Destination names can\u2019t be relied on as unique, stable references over time",
+    "url": "https://linear.app/anchorlabs/issue/VOC-379/trusted-destination-names-cant-be-relied-on-as-unique-stable",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-24T19:32:04.363Z"
+  },
+  {
+    "id": "VOC-380",
+    "title": "Client can't determine which stablecoins support USD mint and burn",
+    "url": "https://linear.app/anchorlabs/issue/VOC-380/client-cant-determine-which-stablecoins-support-usd-mint-and-burn",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T15:44:58.568Z"
+  },
+  {
+    "id": "VOC-382",
+    "title": "Client cannot remove or re-add expired fiat trusted destinations stuck in `Needs approval`",
+    "url": "https://linear.app/anchorlabs/issue/VOC-382/client-cannot-remove-or-re-add-expired-fiat-trusted-destinations-stuck",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Banking Solutions"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T15:45:05.362Z"
+  },
+  {
+    "id": "VOC-383",
+    "title": "Mobile UI makes switching between tri-party accounts difficult",
+    "url": "https://linear.app/anchorlabs/issue/VOC-383/mobile-ui-makes-switching-between-tri-party-accounts-difficult",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-06-22T20:01:09.587Z"
+  },
+  {
+    "id": "VOC-385",
+    "title": "iOS device requirement is unclear before onboarding",
+    "url": "https://linear.app/anchorlabs/issue/VOC-385/ios-device-requirement-is-unclear-before-onboarding",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-24T19:34:01.806Z"
+  },
+  {
+    "id": "VOC-386",
+    "title": "Enterprise clients cannot guarantee third-party risk systems can stop outbound transfers before signing",
+    "url": "https://linear.app/anchorlabs/issue/VOC-386/enterprise-clients-cannot-guarantee-third-party-risk-systems-can-stop",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-02T17:44:55.157Z"
+  },
+  {
+    "id": "VOC-387",
+    "title": "Write-permissioned API keys can become active without quorum approval or activity log entries",
+    "url": "https://linear.app/anchorlabs/issue/VOC-387/write-permissioned-api-keys-can-become-active-without-quorum-approval",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-08T14:09:49.080Z"
+  },
+  {
+    "id": "VOC-388",
+    "title": "Operations teams can only receive mobile notifications for account activity and pending actions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-388/operations-teams-can-only-receive-mobile-notifications-for-account",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:02:26.852Z"
+  },
+  {
+    "id": "VOC-390",
+    "title": "Expose Spam Transactions via v2 API & Reports",
+    "url": "https://linear.app/anchorlabs/issue/VOC-390/expose-spam-transactions-via-v2-api-and-reports",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:05:55.085Z"
+  },
+  {
+    "id": "VOC-391",
+    "title": "ParaFi cannot execute its high-frequency strategy on A1 without API connectivity",
+    "url": "https://linear.app/anchorlabs/issue/VOC-391/parafi-cannot-execute-its-high-frequency-strategy-on-a1-without-api",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:12:39.849Z"
+  },
+  {
+    "id": "VOC-392",
+    "title": "CX cannot remove affiliates from orgs in RDB without Transparency team support",
+    "url": "https://linear.app/anchorlabs/issue/VOC-392/cx-cannot-remove-affiliates-from-orgs-in-rdb-without-transparency-team",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T19:07:37.546Z"
+  },
+  {
+    "id": "VOC-393",
+    "title": "Org admins can\u2019t remove affiliates from organizations themselves",
+    "url": "https://linear.app/anchorlabs/issue/VOC-393/org-admins-cant-remove-affiliates-from-organizations-themselves",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T16:12:47.426Z"
+  },
+  {
+    "id": "VOC-394",
+    "title": "Users can't understand what permissions each role actually grants",
+    "url": "https://linear.app/anchorlabs/issue/VOC-394/users-cant-understand-what-permissions-each-role-actually-grants",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-08T14:07:49.847Z"
+  },
+  {
+    "id": "VOC-395",
+    "title": "State Street iOS recovery worked, but the 10-tap flow was unclear and brittle",
+    "url": "https://linear.app/anchorlabs/issue/VOC-395/state-street-ios-recovery-worked-but-the-10-tap-flow-was-unclear-and",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T16:13:08.864Z"
+  },
+  {
+    "id": "VOC-396",
+    "title": "Spam-attributed MON deposits still appear in client wallets",
+    "url": "https://linear.app/anchorlabs/issue/VOC-396/spam-attributed-mon-deposits-still-appear-in-client-wallets",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T02:29:08.370Z"
+  },
+  {
+    "id": "VOC-397",
+    "title": "Replacement device QR code cannot be emailed from a restricted work phone",
+    "url": "https://linear.app/anchorlabs/issue/VOC-397/replacement-device-qr-code-cannot-be-emailed-from-a-restricted-work",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-06-30T15:42:31.156Z"
+  },
+  {
+    "id": "VOC-398",
+    "title": "Gas station does not support BSC assets for API transfers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-398/gas-station-does-not-support-bsc-assets-for-api-transfers",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-01T13:18:31.514Z"
+  },
+  {
+    "id": "VOC-399",
+    "title": "Cannot query vault wallets by the assets they currently hold",
+    "url": "https://linear.app/anchorlabs/issue/VOC-399/cannot-query-vault-wallets-by-the-assets-they-currently-hold",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-01T13:43:32.495Z"
+  },
+  {
+    "id": "VOC-400",
+    "title": "Clients can't edit trusted destinations with stale AML data",
+    "url": "https://linear.app/anchorlabs/issue/VOC-400/clients-cant-edit-trusted-destinations-with-stale-aml-data",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-04T16:25:11.926Z"
+  },
+  {
+    "id": "VOC-401",
+    "title": "Clients cannot collect all Solana inactive stake balance in one action",
+    "url": "https://linear.app/anchorlabs/issue/VOC-401/clients-cannot-collect-all-solana-inactive-stake-balance-in-one-action",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:25:15.768Z"
+  },
+  {
+    "id": "VOC-402",
+    "title": "Clients cannot configure automated email report delivery in the UI",
+    "url": "https://linear.app/anchorlabs/issue/VOC-402/clients-cannot-configure-automated-email-report-delivery-in-the-ui",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-09T18:06:27.516Z"
+  },
+  {
+    "id": "VOC-403",
+    "title": "Transaction reports do not include internal comments",
+    "url": "https://linear.app/anchorlabs/issue/VOC-403/transaction-reports-do-not-include-internal-comments",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "No priority",
+    "updatedAt": "2026-07-04T16:25:28.448Z"
+  },
+  {
+    "id": "VOC-404",
+    "title": "Users cannot initiate device replacements in web dashboard",
+    "url": "https://linear.app/anchorlabs/issue/VOC-404/users-cannot-initiate-device-replacements-in-web-dashboard",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-02T18:37:53.939Z"
+  },
+  {
+    "id": "VOC-405",
+    "title": "Client cannot restore quorum without CX impersonating departed users because Super User cannot manage users",
+    "url": "https://linear.app/anchorlabs/issue/VOC-405/client-cannot-restore-quorum-without-cx-impersonating-departed-users",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-02T19:49:46.510Z"
+  },
+  {
+    "id": "VOC-406",
+    "title": "Existing wallets cannot opt out of networks",
+    "url": "https://linear.app/anchorlabs/issue/VOC-406/existing-wallets-cannot-opt-out-of-networks",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-07T14:05:09.011Z"
+  },
+  {
+    "id": "VOC-407",
+    "title": "Users seeking routing and channel directory help are going to #team-core-experience instead of #product-help",
+    "url": "https://linear.app/anchorlabs/issue/VOC-407/users-seeking-routing-and-channel-directory-help-are-going-to-team",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-06T14:08:20.921Z"
+  },
+  {
+    "id": "VOC-408",
+    "title": "Unable to export the entire policy list as a PDF",
+    "url": "https://linear.app/anchorlabs/issue/VOC-408/unable-to-export-the-entire-policy-list-as-a-pdf",
+    "status": "Triage",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-03T16:10:06.339Z"
+  },
+  {
+    "id": "VOC-410",
+    "title": "Engineering finds dark mode too dark",
+    "url": "https://linear.app/anchorlabs/issue/VOC-410/engineering-finds-dark-mode-too-dark",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-06T17:03:57.226Z"
+  },
+  {
+    "id": "VOC-411",
+    "title": "Cannot access Hedgey without clicking email links",
+    "url": "https://linear.app/anchorlabs/issue/VOC-411/cannot-access-hedgey-without-clicking-email-links",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Hedgey"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-06T17:19:37.688Z"
+  },
+  {
+    "id": "VOC-412",
+    "title": "Dark mode makes the app too dark",
+    "url": "https://linear.app/anchorlabs/issue/VOC-412/dark-mode-makes-the-app-too-dark",
+    "status": "Hibernating",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-08T11:43:24.830Z"
+  },
+  {
+    "id": "VOC-413",
+    "title": "Confusing UX when converting USDC to USD",
+    "url": "https://linear.app/anchorlabs/issue/VOC-413/confusing-ux-when-converting-usdc-to-usd",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T17:29:14.841Z"
+  },
+  {
+    "id": "VOC-414",
+    "title": "Manual FCC alert review creates operational bottlenecks and limits scalability",
+    "url": "https://linear.app/anchorlabs/issue/VOC-414/manual-fcc-alert-review-creates-operational-bottlenecks-and-limits",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Transaction Risk Management"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T19:10:10.283Z"
+  },
+  {
+    "id": "VOC-415",
+    "title": "Spam appears by default in the activity report",
+    "url": "https://linear.app/anchorlabs/issue/VOC-415/spam-appears-by-default-in-the-activity-report",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-08T20:47:28.720Z"
+  },
+  {
+    "id": "VOC-417",
+    "title": "New users lack transparency into the add user approval process",
+    "url": "https://linear.app/anchorlabs/issue/VOC-417/new-users-lack-transparency-into-the-add-user-approval-process",
+    "status": "Reviewed by PDE Team",
+    "stage": "reviewed_pde",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-13T22:50:40.651Z"
+  },
+  {
+    "id": "VOC-418",
+    "title": "Onboarding across two devices requires manual intervention to complete required applications",
+    "url": "https://linear.app/anchorlabs/issue/VOC-418/onboarding-across-two-devices-requires-manual-intervention-to-complete",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-08T13:36:37.805Z"
+  },
+  {
+    "id": "VOC-419",
+    "title": "BO quorum info and operation progress isn't cohesive with client facing UX",
+    "url": "https://linear.app/anchorlabs/issue/VOC-419/bo-quorum-info-and-operation-progress-isnt-cohesive-with-client-facing",
+    "status": "On Roadmap",
+    "stage": "on_roadmap",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-20T19:28:14.791Z"
+  },
+  {
+    "id": "VOC-420",
+    "title": "Notify users when an organization is no longer available (closed)",
+    "url": "https://linear.app/anchorlabs/issue/VOC-420/notify-users-when-an-organization-is-no-longer-available-closed",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Low",
+    "updatedAt": "2026-07-08T14:17:51.357Z"
+  },
+  {
+    "id": "VOC-421",
+    "title": "Primary advisors on rep codes aren\u2019t notified about key client events",
+    "url": "https://linear.app/anchorlabs/issue/VOC-421/primary-advisors-on-rep-codes-arent-notified-about-key-client-events",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "2 - $250k-$1MM",
+    "priority": "No priority",
+    "updatedAt": "2026-07-08T19:42:57.263Z"
+  },
+  {
+    "id": "VOC-422",
+    "title": "Specific assets cannot be prevented from leaving the platform while still allowing internal settlement",
+    "url": "https://linear.app/anchorlabs/issue/VOC-422/specific-assets-cannot-be-prevented-from-leaving-the-platform-while",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-10T10:58:03.391Z"
+  },
+  {
+    "id": "VOC-423",
+    "title": "Closing an organization requires manually marking all users as lost",
+    "url": "https://linear.app/anchorlabs/issue/VOC-423/closing-an-organization-requires-manually-marking-all-users-as-lost",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-09T18:47:11.114Z"
+  },
+  {
+    "id": "VOC-424",
+    "title": "Client can't find wallet-level balances or wallets with inactive SOL stake after UI updates",
+    "url": "https://linear.app/anchorlabs/issue/VOC-424/client-cant-find-wallet-level-balances-or-wallets-with-inactive-sol",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-10T16:06:30.422Z"
+  },
+  {
+    "id": "VOC-425",
+    "title": "See current prices in trade order entry flow",
+    "url": "https://linear.app/anchorlabs/issue/VOC-425/see-current-prices-in-trade-order-entry-flow",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "Medium",
+    "updatedAt": "2026-07-10T14:41:01.309Z"
+  },
+  {
+    "id": "VOC-426",
+    "title": "Request to support SEP/Simple/\"Checkbook 401ks\"",
+    "url": "https://linear.app/anchorlabs/issue/VOC-426/request-to-support-sepsimplecheckbook-401ks",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Wealth"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "4- <100k",
+    "priority": "Low",
+    "updatedAt": "2026-07-10T13:23:40.560Z"
+  },
+  {
+    "id": "VOC-427",
+    "title": "Update deposit attribution UI to improve originator data accuracy",
+    "url": "https://linear.app/anchorlabs/issue/VOC-427/update-deposit-attribution-ui-to-improve-originator-data-accuracy",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-10T14:30:03.351Z"
+  },
+  {
+    "id": "VOC-428",
+    "title": "Voice-phrase invalidation on Backoffice",
+    "url": "https://linear.app/anchorlabs/issue/VOC-428/voice-phrase-invalidation-on-backoffice",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-17T08:03:23.596Z"
+  },
+  {
+    "id": "VOC-429",
+    "title": "Clients can't track add user progress or resend applications",
+    "url": "https://linear.app/anchorlabs/issue/VOC-429/clients-cant-track-add-user-progress-or-resend-applications",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-10T16:07:08.708Z"
+  },
+  {
+    "id": "VOC-430",
+    "title": "JPM onboarding requires employee IDs, creating approval friction",
+    "url": "https://linear.app/anchorlabs/issue/VOC-430/jpm-onboarding-requires-employee-ids-creating-approval-friction",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-10T16:24:49.669Z"
+  },
+  {
+    "id": "VOC-431",
+    "title": "Cannot practically view staking balances across 114 SOL wallets without opening each wallet individually",
+    "url": "https://linear.app/anchorlabs/issue/VOC-431/cannot-practically-view-staking-balances-across-114-sol-wallets",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "ADx Custody"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-10T20:09:32.304Z"
+  },
+  {
+    "id": "VOC-432",
+    "title": "New users are not submitting individual KYC applications promptly, leading to expired operations",
+    "url": "https://linear.app/anchorlabs/issue/VOC-432/new-users-are-not-submitting-individual-kyc-applications-promptly",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-13T19:42:05.623Z"
+  },
+  {
+    "id": "VOC-433",
+    "title": "Staking reporting does not provide standardized period-based wallet reporting",
+    "url": "https://linear.app/anchorlabs/issue/VOC-433/staking-reporting-does-not-provide-standardized-period-based-wallet",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "1 - $1MM+",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T19:55:24.023Z"
+  },
+  {
+    "id": "VOC-434",
+    "title": "Clients have no visibility into add-user and KYC status",
+    "url": "https://linear.app/anchorlabs/issue/VOC-434/clients-have-no-visibility-into-add-user-and-kyc-status",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:07:21.421Z"
+  },
+  {
+    "id": "VOC-435",
+    "title": "Users receive quorum approval without completing KYC, creating a false sense of completion",
+    "url": "https://linear.app/anchorlabs/issue/VOC-435/users-receive-quorum-approval-without-completing-kyc-creating-a-false",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-13T19:59:06.198Z"
+  },
+  {
+    "id": "VOC-436",
+    "title": "Incomplete KYC applications get buried in Jira, with no internal mechanism to flag or expire them",
+    "url": "https://linear.app/anchorlabs/issue/VOC-436/incomplete-kyc-applications-get-buried-in-jira-with-no-internal",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-16T13:53:47.033Z"
+  },
+  {
+    "id": "VOC-437",
+    "title": "Expected approvals do not apply when moving HYPE to the stake account",
+    "url": "https://linear.app/anchorlabs/issue/VOC-437/expected-approvals-do-not-apply-when-moving-hype-to-the-stake-account",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Protocols"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:18:06.897Z"
+  },
+  {
+    "id": "VOC-438",
+    "title": "Unable to restrict an API key to specific IP addresses during setup",
+    "url": "https://linear.app/anchorlabs/issue/VOC-438/unable-to-restrict-an-api-key-to-specific-ip-addresses-during-setup",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:06:11.040Z"
+  },
+  {
+    "id": "VOC-439",
+    "title": "Authorized user names show differently across the app",
+    "url": "https://linear.app/anchorlabs/issue/VOC-439/authorized-user-names-show-differently-across-the-app",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:06:02.309Z"
+  },
+  {
+    "id": "VOC-440",
+    "title": "Client cannot update in-app display names to match what people go by",
+    "url": "https://linear.app/anchorlabs/issue/VOC-440/client-cannot-update-in-app-display-names-to-match-what-people-go-by",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:05:51.911Z"
+  },
+  {
+    "id": "VOC-441",
+    "title": "Approval screen makes a user addition look like administrator access",
+    "url": "https://linear.app/anchorlabs/issue/VOC-441/approval-screen-makes-a-user-addition-look-like-administrator-access",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-14T20:05:24.156Z"
+  },
+  {
+    "id": "VOC-442",
+    "title": "KYC must manually mirror authorized users between org pages and affiliate pages",
+    "url": "https://linear.app/anchorlabs/issue/VOC-442/kyc-must-manually-mirror-authorized-users-between-org-pages-and",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:19.013Z"
+  },
+  {
+    "id": "VOC-443",
+    "title": "A single legal entity must maintain duplicate KYC profiles to support multiple affiliate types",
+    "url": "https://linear.app/anchorlabs/issue/VOC-443/a-single-legal-entity-must-maintain-duplicate-kyc-profiles-to-support",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:23.202Z"
+  },
+  {
+    "id": "VOC-444",
+    "title": "Clients onboard without W8/W9 collection, increasing the remediation backlog",
+    "url": "https://linear.app/anchorlabs/issue/VOC-444/clients-onboard-without-w8w9-collection-increasing-the-remediation",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T18:52:02.235Z"
+  },
+  {
+    "id": "VOC-445",
+    "title": "A1 cannot trigger an individual application during HNWI onboarding",
+    "url": "https://linear.app/anchorlabs/issue/VOC-445/a1-cannot-trigger-an-individual-application-during-hnwi-onboarding",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:34.382Z"
+  },
+  {
+    "id": "VOC-446",
+    "title": "ADS-bootstrapped A1 affiliates can't complete onboarding because BO/CP exemption logic doesn't match",
+    "url": "https://linear.app/anchorlabs/issue/VOC-446/ads-bootstrapped-a1-affiliates-cant-complete-onboarding-because-bocp",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:40.058Z"
+  },
+  {
+    "id": "VOC-447",
+    "title": "Manual A1 counterparty backfill into RDB blocks retiring trading spreadsheets",
+    "url": "https://linear.app/anchorlabs/issue/VOC-447/manual-a1-counterparty-backfill-into-rdb-blocks-retiring-trading",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:46.987Z"
+  },
+  {
+    "id": "VOC-448",
+    "title": "Approving an affiliate requires separately approving its reviewed individuals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-448/approving-an-affiliate-requires-separately-approving-its-reviewed",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:51:52.155Z"
+  },
+  {
+    "id": "VOC-449",
+    "title": "KYC analysts see incorrect follow-up questions in the KYC review form",
+    "url": "https://linear.app/anchorlabs/issue/VOC-449/kyc-analysts-see-incorrect-follow-up-questions-in-the-kyc-review-form",
+    "status": "Done",
+    "stage": "closed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-20T15:43:44.107Z"
+  },
+  {
+    "id": "VOC-450",
+    "title": "Institutional PC subaccounts can't auto-pass KYC despite identical program signers",
+    "url": "https://linear.app/anchorlabs/issue/VOC-450/institutional-pc-subaccounts-cant-auto-pass-kyc-despite-identical",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-14T23:52:03.436Z"
+  },
+  {
+    "id": "VOC-451",
+    "title": "I can\u2019t get to the stablecoin reward rate information from the stablecoin rewards settings page",
+    "url": "https://linear.app/anchorlabs/issue/VOC-451/i-cant-get-to-the-stablecoin-reward-rate-information-from-the",
+    "status": "Triage",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-15T18:26:53.908Z"
+  },
+  {
+    "id": "VOC-452",
+    "title": "Users cannot reach stablecoin reward rate pages from the stablecoin rewards settings page",
+    "url": "https://linear.app/anchorlabs/issue/VOC-452/users-cannot-reach-stablecoin-reward-rate-pages-from-the-stablecoin",
+    "status": "Triage",
+    "stage": "closed",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-16T20:47:09.836Z"
+  },
+  {
+    "id": "VOC-453",
+    "title": "Wallet balances cannot be zeroed out",
+    "url": "https://linear.app/anchorlabs/issue/VOC-453/wallet-balances-cannot-be-zeroed-out",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-15T20:52:52.760Z"
+  },
+  {
+    "id": "VOC-454",
+    "title": "MON-attributed deposits cannot be flipped to spam",
+    "url": "https://linear.app/anchorlabs/issue/VOC-454/mon-attributed-deposits-cannot-be-flipped-to-spam",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-16T14:29:53.532Z"
+  },
+  {
+    "id": "VOC-455",
+    "title": "Client sees outdated email addresses on the Teams page",
+    "url": "https://linear.app/anchorlabs/issue/VOC-455/client-sees-outdated-email-addresses-on-the-teams-page",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Core Experience"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "Medium",
+    "updatedAt": "2026-07-16T20:46:50.814Z"
+  },
+  {
+    "id": "VOC-456",
+    "title": "Upgrading a user to admin relies on remove-and-re-add",
+    "url": "https://linear.app/anchorlabs/issue/VOC-456/upgrading-a-user-to-admin-relies-on-remove-and-re-add",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T16:51:20.133Z"
+  },
+  {
+    "id": "VOC-457",
+    "title": "No self-serve way to re-queue Alloy journeys from the back office",
+    "url": "https://linear.app/anchorlabs/issue/VOC-457/no-self-serve-way-to-re-queue-alloy-journeys-from-the-back-office",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T18:51:50.534Z"
+  },
+  {
+    "id": "VOC-458",
+    "title": "ADS FATCA/CRS information is not collected in the onboarding application",
+    "url": "https://linear.app/anchorlabs/issue/VOC-458/ads-fatcacrs-information-is-not-collected-in-the-onboarding",
+    "status": "Not Reviewed by PDE Team",
+    "stage": "not_reviewed",
+    "teams": [
+      "Transparency Onboarding Monitoring"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-16T18:52:02.235Z"
+  },
+  {
+    "id": "VOC-459",
+    "title": "Outbound transfers are triggering unnecessary compliance reviews",
+    "url": "https://linear.app/anchorlabs/issue/VOC-459/outbound-transfers-are-triggering-unnecessary-compliance-reviews",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:19:55.437Z"
+  },
+  {
+    "id": "VOC-460",
+    "title": "Trusted destination and API permission updates require separate actions and approvals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-460/trusted-destination-and-api-permission-updates-require-separate",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:20:02.584Z"
+  },
+  {
+    "id": "VOC-461",
+    "title": "Concurrent BTC transfers from the same vault are not supported",
+    "url": "https://linear.app/anchorlabs/issue/VOC-461/concurrent-btc-transfers-from-the-same-vault-are-not-supported",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:20:11.842Z"
+  },
+  {
+    "id": "VOC-462",
+    "title": "Deposits from trusted sources still enter pending attribution",
+    "url": "https://linear.app/anchorlabs/issue/VOC-462/deposits-from-trusted-sources-still-enter-pending-attribution",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:20:20.003Z"
+  },
+  {
+    "id": "VOC-463",
+    "title": "The /wallets endpoint lacks filtering and sorting controls",
+    "url": "https://linear.app/anchorlabs/issue/VOC-463/the-wallets-endpoint-lacks-filtering-and-sorting-controls",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:20:26.436Z"
+  },
+  {
+    "id": "VOC-464",
+    "title": "The /transfers response does not include USD fee value",
+    "url": "https://linear.app/anchorlabs/issue/VOC-464/the-transfers-response-does-not-include-usd-fee-value",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:21:28.756Z"
+  },
+  {
+    "id": "VOC-465",
+    "title": "XLM activation deposits are not identifiable in /transactions response",
+    "url": "https://linear.app/anchorlabs/issue/VOC-465/xlm-activation-deposits-are-not-identifiable-in-transactions-response",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:21:22.937Z"
+  },
+  {
+    "id": "VOC-466",
+    "title": "Re-check ETH fees before broadcasting withdrawals",
+    "url": "https://linear.app/anchorlabs/issue/VOC-466/re-check-eth-fees-before-broadcasting-withdrawals",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:22:08.538Z"
+  },
+  {
+    "id": "VOC-467",
+    "title": "Asset custody support requests do not have a clear intake workflow",
+    "url": "https://linear.app/anchorlabs/issue/VOC-467/asset-custody-support-requests-do-not-have-a-clear-intake-workflow",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:21:00.674Z"
+  },
+  {
+    "id": "VOC-468",
+    "title": "Anchorage is not proactively notifying clients about service disruptions",
+    "url": "https://linear.app/anchorlabs/issue/VOC-468/anchorage-is-not-proactively-notifying-clients-about-service",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:18:56.341Z"
+  },
+  {
+    "id": "VOC-469",
+    "title": "Asset specs, API docs, and changelog quality are insufficient",
+    "url": "https://linear.app/anchorlabs/issue/VOC-469/asset-specs-api-docs-and-changelog-quality-are-insufficient",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:18:29.045Z"
+  },
+  {
+    "id": "VOC-470",
+    "title": "Large withdrawals cannot be delayed in Anchorage",
+    "url": "https://linear.app/anchorlabs/issue/VOC-470/large-withdrawals-cannot-be-delayed-in-anchorage",
+    "status": "Reviewed by VOC",
+    "stage": "reviewed_voc",
+    "teams": [
+      "Unassigned"
+    ],
+    "duplicateTeam": false,
+    "revenueTier": "0 - None / Unknown",
+    "priority": "No priority",
+    "updatedAt": "2026-07-17T14:53:11.081Z"
+  }
+]
