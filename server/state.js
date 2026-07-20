@@ -6,7 +6,15 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_PATH = path.join(__dirname, "data", "state.json");
 
 function defaultState() {
-  return { overrides: {}, notes: {}, pending: [], appliedLog: [] };
+  return {
+    overrides: {},
+    timelineOverrides: {},
+    notes: {},
+    pending: [],
+    appliedLog: [],
+    links: [],
+    roadblocks: {},
+  };
 }
 
 export function loadState() {

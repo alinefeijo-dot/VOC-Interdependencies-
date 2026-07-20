@@ -1,9 +1,32 @@
 import React, { useMemo, useState } from "react";
-import { STAGES, TEAMS } from "../constants.js";
+import { AXES, TEAMS } from "../constants.js";
 import IssueCard from "./IssueCard.jsx";
 
-export default function Board({ issues, notes, search, onMove, onOpen }) {
+export default function Board({
+  issues,
+  notes,
+  links,
+  roadblocks,
+  search,
+  axisKey,
+  onMove,
+  onOpen,
+  spotlightId,
+  spotlightRelatedIds,
+}) {
   const [dragOverCell, setDragOverCell] = useState(null);
+  const axis = AXES[axisKey];
+  const columns = axis.columns;
+  const field = axis.field;
+
+  const linkCounts = useMemo(() => {
+    const counts = {};
+    for (const l of links) {
+      counts[l.fromId] = (counts[l.fromId] || 0) + 1;
+      counts[l.toId] = (counts[l.toId] || 0) + 1;
+    }
+    return counts;
+  }, [links]);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -15,8 +38,10 @@ export default function Board({ issues, notes, search, onMove, onOpen }) {
 
   const byCell = useMemo(() => {
     const map = {};
-    for (const team of TEAMS) map[team] = { closed: [] };
-    for (const stage of STAGES) for (const team of TEAMS) map[team][stage.key] = [];
+    for (const team of TEAMS) {
+      map[team] = { closed: [] };
+      for (const col of columns) map[team][col.key] = [];
+    }
 
     for (const issue of filtered) {
       for (const team of issue.teams) {
@@ -24,33 +49,43 @@ export default function Board({ issues, notes, search, onMove, onOpen }) {
         if (issue.stage === "closed") {
           bucket.closed.push(issue);
         } else {
-          if (!bucket[issue.stage]) bucket[issue.stage] = [];
-          bucket[issue.stage].push(issue);
+          const key = issue[field];
+          if (!bucket[key]) bucket[key] = [];
+          bucket[key].push(issue);
         }
       }
     }
     return map;
-  }, [filtered]);
+  }, [filtered, columns, field]);
 
   function handleDragStart(e, issue) {
     e.dataTransfer.setData("text/plain", issue.id);
     e.dataTransfer.effectAllowed = "move";
   }
 
-  function handleDrop(e, stageKey, team) {
+  function handleDrop(e, colKey, team) {
     e.preventDefault();
     setDragOverCell(null);
     const issueId = e.dataTransfer.getData("text/plain");
-    if (issueId) onMove(issueId, stageKey);
+    if (issueId) onMove(issueId, colKey);
+  }
+
+  const spotlightActive = !!spotlightId;
+
+  function cardState(issue) {
+    if (!spotlightActive) return "";
+    if (issue.id === spotlightId) return "is-spotlight";
+    if (spotlightRelatedIds.has(issue.id)) return "is-linked";
+    return "is-dimmed";
   }
 
   return (
-    <div className="board">
+    <div className={`board${spotlightActive ? " spotlight-active" : ""}`}>
       <div className="board-header-row">
         <div className="team-label-col" />
-        {STAGES.map((s) => (
-          <div key={s.key} className="stage-header">
-            {s.label}
+        {columns.map((c) => (
+          <div key={c.key} className="col-header">
+            {c.label}
           </div>
         ))}
         <div className="closed-header">Closed / Other</div>
@@ -58,8 +93,7 @@ export default function Board({ issues, notes, search, onMove, onOpen }) {
 
       {TEAMS.map((team) => {
         const row = byCell[team] || { closed: [] };
-        const rowCount =
-          STAGES.reduce((n, s) => n + (row[s.key]?.length || 0), 0) + row.closed.length;
+        const rowCount = columns.reduce((n, c) => n + (row[c.key]?.length || 0), 0) + row.closed.length;
         if (search.trim() && rowCount === 0) return null;
 
         return (
@@ -68,24 +102,27 @@ export default function Board({ issues, notes, search, onMove, onOpen }) {
               <span>{team}</span>
               <span className="team-count">{rowCount}</span>
             </div>
-            {STAGES.map((s) => {
-              const cellId = `${team}::${s.key}`;
+            {columns.map((c) => {
+              const cellId = `${team}::${c.key}`;
               return (
                 <div
-                  key={s.key}
-                  className={`stage-cell${dragOverCell === cellId ? " drag-over" : ""}`}
+                  key={c.key}
+                  className={`col-cell${dragOverCell === cellId ? " drag-over" : ""}`}
                   onDragOver={(e) => {
                     e.preventDefault();
                     if (dragOverCell !== cellId) setDragOverCell(cellId);
                   }}
-                  onDragLeave={() => setDragOverCell((c) => (c === cellId ? null : c))}
-                  onDrop={(e) => handleDrop(e, s.key, team)}
+                  onDragLeave={() => setDragOverCell((cur) => (cur === cellId ? null : cur))}
+                  onDrop={(e) => handleDrop(e, c.key, team)}
                 >
-                  {(row[s.key] || []).map((issue) => (
+                  {(row[c.key] || []).map((issue) => (
                     <IssueCard
                       key={issue.id}
                       issue={issue}
                       notesCount={notes[issue.id]?.length || 0}
+                      linkCount={linkCounts[issue.id] || 0}
+                      roadblock={roadblocks[issue.id]}
+                      stateClass={cardState(issue)}
                       onOpen={onOpen}
                       onDragStart={handleDragStart}
                     />
@@ -102,6 +139,9 @@ export default function Board({ issues, notes, search, onMove, onOpen }) {
                     key={issue.id}
                     issue={issue}
                     notesCount={notes[issue.id]?.length || 0}
+                    linkCount={linkCounts[issue.id] || 0}
+                    roadblock={roadblocks[issue.id]}
+                    stateClass={cardState(issue)}
                     onOpen={onOpen}
                     onDragStart={handleDragStart}
                   />

@@ -5,6 +5,28 @@ export const STAGES = [
   { key: "on_roadmap", label: "On Roadmap" },
 ];
 
+export const TIMELINE_BUCKETS = [
+  { key: "unscheduled", label: "Unscheduled" },
+  { key: "later", label: "Later" },
+  { key: "next", label: "Next" },
+  { key: "now", label: "Now" },
+];
+
+export const AXES = {
+  stage: { key: "stage", label: "By Review Stage", columns: STAGES, field: "stage" },
+  timeline: {
+    key: "timeline",
+    label: "By Timeline",
+    columns: TIMELINE_BUCKETS,
+    field: "timelineBucket",
+  },
+};
+
+export const LINK_TYPE_LABELS = {
+  blocks: "blocks",
+  related: "relates to",
+};
+
 export const TEAMS = [
   "ADx Custody",
   "Asset Management",

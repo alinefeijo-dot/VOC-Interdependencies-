@@ -25,7 +25,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 .conn-live { background: #22c55e; }
 .conn-down { background: #f59e0b; }
 .conn-label { font-size: 11px; color: #6b7280; margin-right: 4px; }
-.pending-button {
+.toolbar-button, .pending-button {
   border: 1px solid #2c88d9;
   color: #2c88d9;
   background: #fff;
@@ -33,9 +33,25 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
   padding: 6px 12px;
   font-size: 13px;
   cursor: pointer;
+  white-space: nowrap;
 }
-.pending-button:hover { background: #eef6ff; }
+.toolbar-button:hover, .pending-button:hover { background: #eef6ff; }
+.roadblock-toolbar-button { border-color: #d3455b; color: #a4133c; }
+.roadblock-toolbar-button:hover { background: #fdecef; }
 
+.axis-toggle { display: flex; border: 1px solid #d5dbe1; border-radius: 6px; overflow: hidden; }
+.axis-button {
+  border: none;
+  background: #fff;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #556170;
+}
+.axis-button + .axis-button { border-left: 1px solid #d5dbe1; }
+.axis-button.axis-active { background: #2c88d9; color: #fff; }
+
+.board-viewport { position: relative; flex: 1; display: flex; overflow: hidden; }
 .board { overflow: auto; flex: 1; background: #f5f7f9; }
 .board-header-row, .board-row {
   display: grid;
@@ -48,7 +64,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
   background: #fff;
   border-bottom: 1px solid #d5dbe1;
 }
-.stage-header, .closed-header {
+.col-header, .closed-header {
   padding: 10px 8px;
   font-size: 12px;
   font-weight: 700;
@@ -73,7 +89,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 }
 .team-count { color: #8a97a3; font-weight: 400; font-size: 12px; }
 
-.stage-cell {
+.col-cell {
   min-height: 64px;
   max-height: 420px;
   overflow-y: auto;
@@ -84,7 +100,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
   gap: 6px;
   align-self: start;
 }
-.stage-cell.drag-over { background: #eaf3ff; }
+.col-cell.drag-over { background: #eaf3ff; }
 .closed-cell {
   max-height: 420px;
   overflow-y: auto;
@@ -105,8 +121,10 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
   padding: 6px 8px;
   cursor: grab;
   font-size: 12px;
+  transition: opacity 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 .issue-card:hover { border-color: #9aa5af; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.issue-card.is-roadblock { border-left: 4px solid #d3455b; }
 .issue-card-top { display: flex; gap: 5px; align-items: center; margin-bottom: 3px; flex-wrap: wrap; }
 .issue-id { font-weight: 700; color: #2c88d9; text-decoration: none; font-size: 11px; }
 .issue-title { color: #33404b; line-height: 1.35; }
@@ -114,6 +132,34 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 .badge-dup { background: #fde2e9; color: #a4133c; }
 .badge-tier { background: #fde68a; color: #7c4a03; }
 .badge-notes { background: #dbeafe; color: #1d4ed8; }
+.badge-links { background: #e6e0fb; color: #4c1d95; }
+.badge-roadblock { background: transparent; padding: 0; font-size: 12px; }
+
+/* Spotlight / "walk the wall" presentation mode */
+.issue-card.is-dimmed { opacity: 0.25; }
+.issue-card.is-spotlight {
+  border-color: #2c88d9;
+  box-shadow: 0 0 0 2px rgba(44, 136, 217, 0.35), 0 2px 8px rgba(0,0,0,0.12);
+  position: relative;
+  z-index: 6;
+}
+.issue-card.is-linked {
+  border-color: #a4133c;
+  box-shadow: 0 0 0 2px rgba(164, 19, 60, 0.25);
+  position: relative;
+  z-index: 6;
+}
+
+.connector-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 5;
+}
+.connector-line { stroke: #a4133c; stroke-width: 2; }
+.connector-line.connector-related { stroke: #8a97a3; stroke-dasharray: 5 4; }
 
 .detail-overlay, .pending-overlay {
   position: fixed;
@@ -180,7 +226,56 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 .pending-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; max-height: 260px; overflow-y: auto; }
 .pending-item { background: #f5f7f9; border: 1px solid #e5e9ed; border-radius: 6px; padding: 8px 10px; font-size: 12px; }
 .pending-item.applied { background: #edfaf0; border-color: #c7ecd0; }
+.pending-item.roadblock-item { border-left: 3px solid #d3455b; }
 .sync-result { margin-top: 14px; font-size: 12px; }
 .sync-warning { color: #a86b00; }
 .sync-ok { color: #16794a; }
 .sync-fail { color: #a4133c; }
+
+.roadblock-box {
+  background: #fdecef;
+  border: 1px solid #f6c6d0;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.roadblock-flag-button {
+  align-self: flex-start;
+  border: 1px solid #d3455b;
+  background: #fff;
+  color: #a4133c;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.roadblock-flag-button:hover { background: #fdecef; }
+
+.link-jump {
+  border: none;
+  background: none;
+  color: #2c88d9;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.link-label { color: #6b7280; font-style: italic; margin-top: 4px; }
+.link-form { margin-bottom: 20px; }
+.link-form-row { display: flex; gap: 8px; }
+.link-form-row select {
+  border: 1px solid #d5dbe1;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+.link-form input {
+  border: 1px solid #d5dbe1;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  flex: 1;
+}
+.link-error { color: #a4133c; font-size: 12px; }

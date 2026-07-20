@@ -5,17 +5,35 @@ A live, multi-user kanban board for triaging Anchorage's Voice of the Client
 [Whimsical VOC Feedback Wall](https://whimsical.com/FTWkcMUzWBn5Zrce651pmk).
 
 - **Swimlanes:** product team (15 Triage-Team labels + "Unassigned")
-- **Columns:** review stage (Not Reviewed by PDE Team → Reviewed by VOC →
-  Reviewed by PDE Team → On Roadmap), plus a read-only "Closed / Other" tray
-  for Done/Canceled/Duplicate/Triage issues
-- **Drag-and-drop** cards between stages
+- **Two toggleable axes** for the columns:
+  - **By Review Stage** — Not Reviewed by PDE Team → Reviewed by VOC →
+    Reviewed by PDE Team → On Roadmap
+  - **By Timeline** — Unscheduled → Later → Next → Now, seeded from each
+    issue's current review stage as a starting guess, then corrected by
+    dragging live during the workshop
+  - both views share a read-only "Closed / Other" tray for
+    Done/Canceled/Duplicate/Triage issues
+- **Drag-and-drop** cards between columns on whichever axis is active
 - **Duplicate-team badges** on any issue tagged with more than one
   product-team label
+- **Interdependencies** — link any two issues ("VOC-267 blocks VOC-441",
+  or "relates to") with an optional note. Open a card and its linked cards
+  get a red connector line drawn between them and everything else on the
+  board dims, so you can visually trace dependencies while walking the wall;
+  linked cards that are off-screen or filtered out fall back to a text
+  link in the detail panel. A dedicated "Interdependencies" panel lists
+  every declared link for narration.
+- **Roadblocks** — flag any issue as blocked with a reason; it gets a
+  persistent 🚧 badge and red left-border regardless of spotlight state, and
+  a "Roadblocks" panel lists everything currently flagged, for calling out
+  blockers first.
 - **Click-to-annotate** sticky notes per issue
-- **Live shared state** — every move/note broadcasts to all connected
-  browsers over WebSocket in real time
-- **"Pending Linear Changes" panel** — a queue of every move made on the
-  board, with a "Sync to Linear" button
+- **Live shared state** — every move/note/link/roadblock broadcasts to all
+  connected browsers over WebSocket in real time
+- **"Pending Linear Changes" panel** — a queue of every *stage* move made on
+  the board, with a "Sync to Linear" button (timeline moves, links, and
+  roadblocks are board-only concepts with no Linear equivalent, so they
+  never enter this queue)
 
 ## Why moves aren't written to Linear automatically
 
@@ -79,12 +97,14 @@ shape (see `git log` for the original extraction script).
 
 ```
 server/           Express API + WebSocket server
-  index.js        routes: /api/board, /api/move, /api/notes, /api/sync
+  index.js        routes: /api/board, /api/move, /api/notes, /api/links,
+                   /api/roadblocks, /api/sync
   linear.js        Linear GraphQL client (state-update mutation)
   state.js         load/save server/data/state.json
   data/
     voc-issues.json  seed dataset (see above)
-    state.json        runtime state — overrides, notes, pending queue (gitignored)
+    state.json        runtime state — stage/timeline overrides, notes, links,
+                       roadblocks, pending queue (gitignored)
 client/            Vite + React kanban UI
 scripts/
   sync-to-linear.js  CLI: apply all pending moves to Linear

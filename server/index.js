@@ -14,6 +14,17 @@ const issues = JSON.parse(
 );
 let state = loadState();
 
+const STAGE_KEYS = ["not_reviewed", "reviewed_voc", "reviewed_pde", "on_roadmap"];
+const TIMELINE_KEYS = ["now", "next", "later", "unscheduled"];
+const STAGE_TIMELINE_DEFAULT = {
+  not_reviewed: "unscheduled",
+  reviewed_voc: "later",
+  reviewed_pde: "next",
+  on_roadmap: "now",
+  closed: "unscheduled",
+};
+const LINK_TYPES = ["blocks", "related"];
+
 const app = express();
 app.use(express.json());
 
@@ -24,14 +35,17 @@ if (fs.existsSync(clientDist)) {
 
 function boardPayload() {
   return {
-    issues: issues.map((iss) => ({
-      ...iss,
-      stage: state.overrides[iss.id] ?? iss.stage,
-      originalStage: iss.stage,
-    })),
+    issues: issues.map((iss) => {
+      const stage = state.overrides[iss.id] ?? iss.stage;
+      const timelineBucket =
+        state.timelineOverrides[iss.id] ?? STAGE_TIMELINE_DEFAULT[stage] ?? "unscheduled";
+      return { ...iss, stage, originalStage: iss.stage, timelineBucket };
+    }),
     notes: state.notes,
     pending: state.pending,
     appliedLog: state.appliedLog.slice(-50),
+    links: state.links,
+    roadblocks: state.roadblocks,
   };
 }
 
@@ -48,25 +62,91 @@ app.get("/api/board", (req, res) => {
 });
 
 app.post("/api/move", (req, res) => {
-  const { issueId, toStage, author } = req.body;
+  const { issueId, axis, toValue, author } = req.body;
   const issue = issues.find((i) => i.id === issueId);
   if (!issue) return res.status(404).json({ error: "Unknown issue" });
-  if (!["not_reviewed", "reviewed_voc", "reviewed_pde", "on_roadmap"].includes(toStage)) {
-    return res.status(400).json({ error: "Invalid target stage" });
+
+  if (axis === "timeline") {
+    if (!TIMELINE_KEYS.includes(toValue)) {
+      return res.status(400).json({ error: "Invalid timeline bucket" });
+    }
+    const stage = state.overrides[issueId] ?? issue.stage;
+    const fromValue = state.timelineOverrides[issueId] ?? STAGE_TIMELINE_DEFAULT[stage];
+    if (fromValue === toValue) return res.json(boardPayload());
+    state.timelineOverrides[issueId] = toValue;
+    saveState(state);
+    broadcast();
+    return res.json(boardPayload());
   }
 
+  // Default / explicit axis: "stage" — this is the axis that queues a Linear write-back.
+  if (!STAGE_KEYS.includes(toValue)) {
+    return res.status(400).json({ error: "Invalid target stage" });
+  }
   const fromStage = state.overrides[issueId] ?? issue.stage;
-  if (fromStage === toStage) return res.json(boardPayload());
+  if (fromStage === toValue) return res.json(boardPayload());
 
-  state.overrides[issueId] = toStage;
+  state.overrides[issueId] = toValue;
   state.pending.push({
     id: `${issueId}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
     issueId,
     from: fromStage,
-    to: toStage,
+    to: toValue,
     author: author || "anonymous",
     at: new Date().toISOString(),
   });
+  saveState(state);
+  broadcast();
+  res.json(boardPayload());
+});
+
+app.post("/api/links", (req, res) => {
+  const { fromId, toId, type, label, author } = req.body;
+  if (fromId === toId) return res.status(400).json({ error: "Cannot link an issue to itself" });
+  if (!LINK_TYPES.includes(type)) return res.status(400).json({ error: "Invalid link type" });
+  const from = issues.find((i) => i.id === fromId);
+  const to = issues.find((i) => i.id === toId);
+  if (!from || !to) return res.status(404).json({ error: "Unknown issue" });
+
+  const link = {
+    id: `link-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+    fromId,
+    toId,
+    type,
+    label: (label || "").trim(),
+    author: author || "anonymous",
+    at: new Date().toISOString(),
+  };
+  state.links.push(link);
+  saveState(state);
+  broadcast();
+  res.json(boardPayload());
+});
+
+app.delete("/api/links/:linkId", (req, res) => {
+  state.links = state.links.filter((l) => l.id !== req.params.linkId);
+  saveState(state);
+  broadcast();
+  res.json(boardPayload());
+});
+
+app.post("/api/roadblocks", (req, res) => {
+  const { issueId, reason, author } = req.body;
+  const issue = issues.find((i) => i.id === issueId);
+  if (!issue) return res.status(404).json({ error: "Unknown issue" });
+
+  state.roadblocks[issueId] = {
+    reason: (reason || "").trim(),
+    author: author || "anonymous",
+    at: new Date().toISOString(),
+  };
+  saveState(state);
+  broadcast();
+  res.json(boardPayload());
+});
+
+app.delete("/api/roadblocks/:issueId", (req, res) => {
+  delete state.roadblocks[req.params.issueId];
   saveState(state);
   broadcast();
   res.json(boardPayload());
